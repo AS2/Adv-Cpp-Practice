@@ -57,7 +57,7 @@ void TestProcedure(void) {
 	UsersPrintDeque(d1);
 	std::cout << std::endl;
 
-	deque<int> d2{ 1, 15, 2, 14, 3, 13 };
+	deque<int> d2{ 1, 2, 3, 4, 5};
 	std::cout << "Check initializer list constructor: " << std::endl;
 	UsersPrintDeque(d2);
 	std::cout << std::endl;
@@ -70,7 +70,6 @@ void TestProcedure(void) {
 
 	std::cout << "Check move constructor: " << std::endl;
 	deque<int> d4(SumTwo(d2, d3));
-	//deque<int> d4(deque<int>({ 1, 15, 2, 14, 3, 13 }));
 	UsersPrintDeque(d4);
 	std::cout << std::endl;
 
@@ -101,6 +100,38 @@ void TestProcedure(void) {
 	std::cout << "Check operator[] and 'Size()' methods: " << std::endl;
 	deque<char> charDq = deque<char>{ 'h', 'e', 'h', 'e', ' ' } + deque<char>{'h', 'a', 'h', 'a', '!'};
 	UsersPrintDequeLikeAMassive(charDq);
+	std::cout << std::endl;
+
+	std::cout << "Check opeartor+: " << std::endl;
+	d2 = deque<int>({ 1, 2, 3, 4, 5 });
+	d3 = d2;
+	deque<int> dqTest(d2);
+	UsersPrintDeque(d2 + d2);
+	UsersPrintDeque(d2 + d3);
+	UsersPrintDeque(d2 + deque<int>({1, 0, 1, 0, 1}));
+
+	std::cout << "Check 'AddDeque()' methods and opeartor+: " << std::endl;
+	dqTest.AddDeque(dqTest);
+	UsersPrintDeque(dqTest);
+	dqTest.AddDeque(deque<int>({ 1, 0, 1, 2, 1, 0 }));
+	UsersPrintDeque(dqTest);
+	std::cout << std::endl;
+
+	std::cout << "Check operator+ to 'elemType': " << std::endl;
+	d4 = deque<int>({ 1, 2, 3, 4 });
+	int i = 6;
+	d4 = d4 + 5;
+	d4 = d4 + i;
+	UsersPrintDeque(d4);
+
+	std::cout << "Check 'toVector()' method: " << std::endl;
+	std::vector<int> emptyVec = d1.toVector(),
+                   newVec = d4.toVector();
+	for (auto& i : emptyVec)
+		std::cout << i << " ";
+	std::cout << std::endl;
+	for (auto& i : newVec)
+		std::cout << i << " ";
 	std::cout << std::endl;
 }
 
