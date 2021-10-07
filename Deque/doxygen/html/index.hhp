@@ -1,0 +1,46 @@
+[OPTIONS]
+Compiled file=deque.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=Deque
+
+[WINDOWS]
+main="Deque","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+_deque_8h_source.html
+annotated.html
+classdeque-members.html
+classdeque.html
+classdeque_1_1deque_iterator-members.html
+classdeque_1_1deque_iterator.html
+classes.html
+classmemory_allocator-members.html
+classmemory_allocator.html
+dir_13ba40f674744d33142cfeb2e3dc3018.html
+dir_8b5f645a12aa64241e0b267847ee033e.html
+dir_9e8ce9106ce71f03ab93beaae7a21f45.html
+dir_d522931ffa1371640980b621734a4381.html
+dir_f61e1b5b383f4e039202e027853af531.html
+files.html
+functions.html
+functions_func.html
+index.html
+memory_allocator_8h_source.html
+bc_s.png
+bdwn.png
+closed.png
+nav_f.png
+nav_h.png
+open.png
+sync_off.png
+sync_on.png
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
