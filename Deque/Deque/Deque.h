@@ -481,7 +481,7 @@ public:
     std::vector<elemType> newVec(size);
 
     if (newVec.size() != (int)size)
-      throw std::exception("Not enough memory to create");
+      throw std::exception("Not enough memory to create vector");
 
     int i = 0;
     for (dequeIterator dI = Begin(); dI != End(); dI.Next())
