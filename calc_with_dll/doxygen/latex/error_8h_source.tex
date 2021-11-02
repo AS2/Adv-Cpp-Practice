@@ -1,0 +1,46 @@
+\hypertarget{error_8h_source}{}\doxysection{error.\+h}
+\label{error_8h_source}\index{error/error.h@{error/error.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <utility>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{classcalc__error}{calc\_error}} \{}
+\DoxyCodeLine{10 \textcolor{keyword}{private}:}
+\DoxyCodeLine{14   \mbox{\hyperlink{classcalc__error}{calc\_error}}() \{\};}
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{19   \textcolor{keyword}{typedef} \textcolor{keyword}{enum} \{}
+\DoxyCodeLine{20     NO\_ERR = 0,}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22     SCANNER\_ERR,}
+\DoxyCodeLine{23     PARSER\_ERR,}
+\DoxyCodeLine{24     EVAL\_ERR,}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26     OPER\_ERR}
+\DoxyCodeLine{27   \} \mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{errorType\_t}};}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29   \mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{errorType\_t}} \mbox{\hyperlink{classcalc__error_a7a270edb4f28cc26e14f49a7b459441c}{errorType}};    }
+\DoxyCodeLine{30   std::string \mbox{\hyperlink{classcalc__error_a660d4934f74e047479b26821b1395975}{errorMessage}}; }
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32   \mbox{\hyperlink{classcalc__error}{calc\_error}}(\textcolor{keyword}{const} \mbox{\hyperlink{classcalc__error}{calc\_error}}\&) = \textcolor{keyword}{delete};}
+\DoxyCodeLine{33   \mbox{\hyperlink{classcalc__error}{calc\_error}}(\mbox{\hyperlink{classcalc__error}{calc\_error}}\&\&) = \textcolor{keyword}{delete};}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{39   \textcolor{keyword}{static} \mbox{\hyperlink{classcalc__error}{calc\_error}}\& \mbox{\hyperlink{classcalc__error_ae4ba4e2f523fcd399a2eeabb9e53264d}{getInstance}}() \{}
+\DoxyCodeLine{40     \textcolor{keyword}{static} \mbox{\hyperlink{classcalc__error}{calc\_error}} err;}
+\DoxyCodeLine{41     \textcolor{keywordflow}{return} err;}
+\DoxyCodeLine{42   \}}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{49   \textcolor{keywordtype}{void} \mbox{\hyperlink{classcalc__error_a8721ed165e66174a0653d70f783e68c3}{UpdateError}}(\mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{errorType\_t}} \_errorType, \textcolor{keyword}{const} std::string\& \_errorMessage) \{}
+\DoxyCodeLine{50     \mbox{\hyperlink{classcalc__error_a7a270edb4f28cc26e14f49a7b459441c}{errorType}} = \_errorType;}
+\DoxyCodeLine{51     \mbox{\hyperlink{classcalc__error_a660d4934f74e047479b26821b1395975}{errorMessage}} = \_errorMessage;}
+\DoxyCodeLine{52   \}}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{59   \textcolor{keywordtype}{void} \mbox{\hyperlink{classcalc__error_a4b073f1e0b64fd63c61732146c896c4b}{UpdateError}}(\mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{errorType\_t}} \_errorType, std::string\&\& \_errorMessage) \{}
+\DoxyCodeLine{60     \mbox{\hyperlink{classcalc__error_a7a270edb4f28cc26e14f49a7b459441c}{errorType}} = \_errorType;}
+\DoxyCodeLine{61     \mbox{\hyperlink{classcalc__error_a660d4934f74e047479b26821b1395975}{errorMessage}} = std::move(\_errorMessage);}
+\DoxyCodeLine{62   \}}
+\DoxyCodeLine{63 \};}
+
+\end{DoxyCode}

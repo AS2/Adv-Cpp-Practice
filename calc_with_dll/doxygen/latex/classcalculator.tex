@@ -1,0 +1,76 @@
+\hypertarget{classcalculator}{}\doxysection{calculator Class Reference}
+\label{classcalculator}\index{calculator@{calculator}}
+
+
+Calculator class.  
+
+
+
+
+{\ttfamily \#include $<$calculator.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcalculator_a6a253f7667f1dcdabebc0851facd38c4}{calculator}} ()
+\item 
+\mbox{\hyperlink{classcalculator_aa06a4a389cae009d33911eda5c32698c}{calculator}} (const std\+::string \&dll\+Path)
+\item 
+double \mbox{\hyperlink{classcalculator_a899037cea90542c98f023a2e131372dc}{execute\+Expression}} (const std\+::string \&expression)
+\item 
+\mbox{\hyperlink{classcalculator_a6129b309f699d91c1f7a17810298c010}{$\sim$calculator}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Calculator class. 
+
+Calculator class, which execute evaluating from \textquotesingle{}std\+::string\textquotesingle{} expression and supports operation from ../\+DLLs Code/build/plugins 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcalculator_a6a253f7667f1dcdabebc0851facd38c4}\label{classcalculator_a6a253f7667f1dcdabebc0851facd38c4}} 
+\index{calculator@{calculator}!calculator@{calculator}}
+\index{calculator@{calculator}!calculator@{calculator}}
+\doxysubsubsection{\texorpdfstring{calculator()}{calculator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily calculator\+::calculator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+default calculator constructor \mbox{\Hypertarget{classcalculator_aa06a4a389cae009d33911eda5c32698c}\label{classcalculator_aa06a4a389cae009d33911eda5c32698c}} 
+\index{calculator@{calculator}!calculator@{calculator}}
+\index{calculator@{calculator}!calculator@{calculator}}
+\doxysubsubsection{\texorpdfstring{calculator()}{calculator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily calculator\+::calculator (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{dll\+Path }\end{DoxyParamCaption})}
+
+calculator constructor 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em dll\+Path} & -\/ path to folder with additional dlls \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcalculator_a6129b309f699d91c1f7a17810298c010}\label{classcalculator_a6129b309f699d91c1f7a17810298c010}} 
+\index{calculator@{calculator}!````~calculator@{$\sim$calculator}}
+\index{````~calculator@{$\sim$calculator}!calculator@{calculator}}
+\doxysubsubsection{\texorpdfstring{$\sim$calculator()}{~calculator()}}
+{\footnotesize\ttfamily calculator\+::$\sim$calculator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+default calculator destructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcalculator_a899037cea90542c98f023a2e131372dc}\label{classcalculator_a899037cea90542c98f023a2e131372dc}} 
+\index{calculator@{calculator}!executeExpression@{executeExpression}}
+\index{executeExpression@{executeExpression}!calculator@{calculator}}
+\doxysubsubsection{\texorpdfstring{executeExpression()}{executeExpression()}}
+{\footnotesize\ttfamily double calculator\+::execute\+Expression (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{expression }\end{DoxyParamCaption})}
+
+Execute evaluating expression 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em expression} & -\/ std\+::string with expression to evaluate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+Fill error in \textquotesingle{}\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}}\textquotesingle{} struct if expression has some problems (inknown operators, bracke) 
+\end{DoxyWarning}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+calculator/calculator.\+h\item 
+calculator/calculator.\+cpp\end{DoxyCompactItemize}

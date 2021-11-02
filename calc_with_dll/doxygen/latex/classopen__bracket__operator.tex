@@ -1,0 +1,65 @@
+\hypertarget{classopen__bracket__operator}{}\doxysection{open\+\_\+bracket\+\_\+operator Class Reference}
+\label{classopen__bracket__operator}\index{open\_bracket\_operator@{open\_bracket\_operator}}
+
+
+{\ttfamily \#include $<$standart\+\_\+operators.\+h$>$}
+
+Inheritance diagram for open\+\_\+bracket\+\_\+operator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classopen__bracket__operator}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classopen__bracket__operator_a3c03557a4bfe397899da3d4dba68a8ea}{open\+\_\+bracket\+\_\+operator}} ()
+\item 
+virtual double \mbox{\hyperlink{classopen__bracket__operator_ab3528c6fe3ecb876b3ffec1b9e1a0fde}{execute\+Operation}} (double l\+Value, double r\+Value, \mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&err)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Open bracket operator 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classopen__bracket__operator_a3c03557a4bfe397899da3d4dba68a8ea}\label{classopen__bracket__operator_a3c03557a4bfe397899da3d4dba68a8ea}} 
+\index{open\_bracket\_operator@{open\_bracket\_operator}!open\_bracket\_operator@{open\_bracket\_operator}}
+\index{open\_bracket\_operator@{open\_bracket\_operator}!open\_bracket\_operator@{open\_bracket\_operator}}
+\doxysubsubsection{\texorpdfstring{open\_bracket\_operator()}{open\_bracket\_operator()}}
+{\footnotesize\ttfamily open\+\_\+bracket\+\_\+operator\+::open\+\_\+bracket\+\_\+operator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Default open bracket operator constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classopen__bracket__operator_ab3528c6fe3ecb876b3ffec1b9e1a0fde}\label{classopen__bracket__operator_ab3528c6fe3ecb876b3ffec1b9e1a0fde}} 
+\index{open\_bracket\_operator@{open\_bracket\_operator}!executeOperation@{executeOperation}}
+\index{executeOperation@{executeOperation}!open\_bracket\_operator@{open\_bracket\_operator}}
+\doxysubsubsection{\texorpdfstring{executeOperation()}{executeOperation()}}
+{\footnotesize\ttfamily virtual double open\+\_\+bracket\+\_\+operator\+::execute\+Operation (\begin{DoxyParamCaption}\item[{double}]{l\+Value,  }\item[{double}]{r\+Value,  }\item[{\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&}]{err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Virtual function of execute operator \char`\"{}(\char`\"{} \begin{DoxyWarning}{Warning}
+\textquotesingle{}(\textquotesingle{} and \textquotesingle{})\textquotesingle{} are not operators! They are only childs of \textquotesingle{}\mbox{\hyperlink{classdef__operator}{def\+\_\+operator}}\textquotesingle{} only because they work like operators with some exception 
+\end{DoxyWarning}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em l\+Value} & -\/ left value for binary operator \\
+\hline
+\mbox{\texttt{ in}}  & {\em r\+Value} & -\/ right value for binary operator \\
+\hline
+\mbox{\texttt{ in}}  & {\em err} & -\/ error struct to fill if operator takes bad values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+result of operator execute (none) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classdef__operator_acbdeb9e318cb6d4ac4e73b8323892102}{def\+\_\+operator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+operators/standart\+\_\+operators.\+h\end{DoxyCompactItemize}

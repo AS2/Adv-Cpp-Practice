@@ -1,0 +1,27 @@
+\hypertarget{arccos_8h_source}{}\doxysection{arccos.\+h}
+\label{arccos_8h_source}\index{DLLs Code/arccos/arccos.h@{DLLs Code/arccos/arccos.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}../../operators/operator.h"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}../../dllLoader/dllPlugin.h"{}}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{8 \textcolor{keyword}{class }\mbox{\hyperlink{classarccos}{arccos}} : \textcolor{keyword}{public} \mbox{\hyperlink{classdef__operator}{def\_operator}} \{}
+\DoxyCodeLine{9 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13   \mbox{\hyperlink{classarccos_a2d4a6f3d94feb90479c623f2c6bcc440}{arccos}}() \{}
+\DoxyCodeLine{14     \mbox{\hyperlink{classdef__operator_a627a1c31a7036ff9f850e3e6edf2ee51}{isUnar}} = \textcolor{keyword}{true};}
+\DoxyCodeLine{15     \mbox{\hyperlink{classdef__operator_a366d2bf1d35a27b27eab58e4784dfbdf}{priority}} = 9;}
+\DoxyCodeLine{16     \mbox{\hyperlink{classdef__operator_aebbb4b24c339023ca855921057b0a14d}{operatorId}} = \textcolor{charliteral}{'b'};}
+\DoxyCodeLine{17     \mbox{\hyperlink{classdef__operator_a38a2538b6bbeb94d4a2d9367d0f18321}{operatorName}} = \textcolor{stringliteral}{"{}arccos"{}};}
+\DoxyCodeLine{18   \};}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{28   \textcolor{keyword}{virtual} \textcolor{keywordtype}{double} \mbox{\hyperlink{classarccos_af59c598e0d5455467c2d685d66a55c02}{executeOperation}}(\textcolor{keywordtype}{double} lValue, \textcolor{keywordtype}{double} rValue, \mbox{\hyperlink{classcalc__error}{calc\_error}}\& err) \{}
+\DoxyCodeLine{29     \textcolor{keywordflow}{if} (lValue < -\/1 || lValue > 1) \{}
+\DoxyCodeLine{30       err.\mbox{\hyperlink{classcalc__error_a8721ed165e66174a0653d70f783e68c3}{UpdateError}}(calc\_error::OPER\_ERR, \textcolor{stringliteral}{"{}'arccos' can evaluate argument between -\/1 and 1"{}});}
+\DoxyCodeLine{31       \textcolor{keywordflow}{return} -\/1;}
+\DoxyCodeLine{32     \}}
+\DoxyCodeLine{33     \textcolor{keywordflow}{return} acos(lValue);}
+\DoxyCodeLine{34   \}}
+\DoxyCodeLine{35 \};}
+
+\end{DoxyCode}

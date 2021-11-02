@@ -1,0 +1,376 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a630a108506f5e4e2ac020984adefe845"><param name="Name" value="GetId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#ae2f6d2a3735c9e53bb8013ebe3fd6bc8"><param name="Name" value="GetName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a5afea149aac9834c519dd9363b9bd3cb"><param name="Name" value="GetPriority"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classscanner.html#a21d162bfecc3029f8cca2c590925d08b"><param name="Name" value="GetTokenQueue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classparser.html#af6dda7fa77a2123b840997af78a5f70d"><param name="Name" value="GetTokensPolIS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a8721ed165e66174a0653d70f783e68c3"><param name="Name" value="UpdateError"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a8721ed165e66174a0653d70f783e68c3"><param name="Name" value="calc_error"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a4b073f1e0b64fd63c61732146c896c4b"><param name="Name" value="UpdateError"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a4b073f1e0b64fd63c61732146c896c4b"><param name="Name" value="calc_error"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classadd__operator.html"><param name="Name" value="add_operator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classadd__operator.html"><param name="Name" value="add_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classadd__operator.html#a8274035ee502dfa7d6923a84f727ff3a"><param name="Name" value="add_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classadd__operator.html"><param name="Name" value="add_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classadd__operator.html#a0f65b92b5c4c08f9138181d25433565a"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classarccos.html"><param name="Name" value="arccos"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classarccos.html"><param name="Name" value="arccos"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classarccos.html#a2d4a6f3d94feb90479c623f2c6bcc440"><param name="Name" value="arccos"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classarccos.html"><param name="Name" value="arccos"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classarccos.html#af59c598e0d5455467c2d685d66a55c02"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classarcsin.html"><param name="Name" value="arcsin"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classarcsin.html"><param name="Name" value="arcsin"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classarcsin.html#a3d58b7f9e738ef3ecbd07627663c86ce"><param name="Name" value="arcsin"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classarcsin.html"><param name="Name" value="arcsin"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classarcsin.html#acfaaf001b122d82b8fc698323bbed79b"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html"><param name="Name" value="calc_error"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html"><param name="Name" value="calc_error"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a8721ed165e66174a0653d70f783e68c3"><param name="Name" value="UpdateError"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html"><param name="Name" value="calc_error"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a4b073f1e0b64fd63c61732146c896c4b"><param name="Name" value="UpdateError"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html"><param name="Name" value="calc_error"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#aac5567e92ec8451882c51345d395693d"><param name="Name" value="calc_error"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html"><param name="Name" value="calc_error"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a8efff19558cd4be7a6b2d0ca4a4de7aa"><param name="Name" value="calc_error"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html"><param name="Name" value="calc_error"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a660d4934f74e047479b26821b1395975"><param name="Name" value="errorMessage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html"><param name="Name" value="calc_error"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a7a270edb4f28cc26e14f49a7b459441c"><param name="Name" value="errorType"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html"><param name="Name" value="calc_error"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#ae4ba4e2f523fcd399a2eeabb9e53264d"><param name="Name" value="getInstance"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html"><param name="Name" value="calculator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html"><param name="Name" value="calculator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html#aa06a4a389cae009d33911eda5c32698c"><param name="Name" value="calculator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html"><param name="Name" value="calculator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html#a6a253f7667f1dcdabebc0851facd38c4"><param name="Name" value="calculator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html"><param name="Name" value="calculator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html#a899037cea90542c98f023a2e131372dc"><param name="Name" value="executeExpression"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html"><param name="Name" value="calculator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html#a6129b309f699d91c1f7a17810298c010"><param name="Name" value="~calculator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classclose__bracket__operator.html"><param name="Name" value="close_bracket_operator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classclose__bracket__operator.html"><param name="Name" value="close_bracket_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classclose__bracket__operator.html#ae152501b5ea6545345f3ddeb0a7234a6"><param name="Name" value="close_bracket_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classclose__bracket__operator.html"><param name="Name" value="close_bracket_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classclose__bracket__operator.html#a24e7b0ad5913b852ae2fa1fb65b76ea0"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structcontain__t.html"><param name="Name" value="contain_t"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structcontain__t.html"><param name="Name" value="contain_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structcontain__t.html#a88e08b02fa42f24314953d628e57101d"><param name="Name" value="numValue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structcontain__t.html"><param name="Name" value="contain_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structcontain__t.html#a72a5b8ba16fa28ec9c20945cccaf3e23"><param name="Name" value="operValue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcosin.html"><param name="Name" value="cosin"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcosin.html"><param name="Name" value="cosin"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcosin.html#a3f1bd59762786f30d3ede791f33b6b10"><param name="Name" value="cosin"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcosin.html"><param name="Name" value="cosin"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcosin.html#ad6d203f0cd9bb53394f243244769fa79"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a630a108506f5e4e2ac020984adefe845"><param name="Name" value="GetId"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#ae2f6d2a3735c9e53bb8013ebe3fd6bc8"><param name="Name" value="GetName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a5afea149aac9834c519dd9363b9bd3cb"><param name="Name" value="GetPriority"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#adc8402b6d269571fbf961370e0251a75"><param name="Name" value="def_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#acbdeb9e318cb6d4ac4e73b8323892102"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a561850652b14aea929f18c1ed8729598"><param name="Name" value="isOperUnar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a627a1c31a7036ff9f850e3e6edf2ee51"><param name="Name" value="isUnar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#aebbb4b24c339023ca855921057b0a14d"><param name="Name" value="operatorId"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a38a2538b6bbeb94d4a2d9367d0f18321"><param name="Name" value="operatorName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html"><param name="Name" value="def_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a366d2bf1d35a27b27eab58e4784dfbdf"><param name="Name" value="priority"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdivide__operator.html"><param name="Name" value="divide_operator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdivide__operator.html"><param name="Name" value="divide_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdivide__operator.html#a36b940eb2d7c442131b0c4da19434668"><param name="Name" value="divide_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdivide__operator.html"><param name="Name" value="divide_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdivide__operator.html#a2a1fdf8d43ce237ce5b7d01f06368ed4"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a660d4934f74e047479b26821b1395975"><param name="Name" value="errorMessage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#a7a270edb4f28cc26e14f49a7b459441c"><param name="Name" value="errorType"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classeval.html"><param name="Name" value="eval"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classeval.html"><param name="Name" value="eval"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classeval.html#a038c2f74230a376cc58789ebcb83a6b1"><param name="Name" value="eval"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classeval.html"><param name="Name" value="eval"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classeval.html#a22f358cfc6b6a2bfa72f4d94921de3ec"><param name="Name" value="evalvate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classeval.html#a22f358cfc6b6a2bfa72f4d94921de3ec"><param name="Name" value="evalvate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html#a899037cea90542c98f023a2e131372dc"><param name="Name" value="executeExpression"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classadd__operator.html#a0f65b92b5c4c08f9138181d25433565a"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classadd__operator.html#a0f65b92b5c4c08f9138181d25433565a"><param name="Name" value="add_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classarccos.html#af59c598e0d5455467c2d685d66a55c02"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classarccos.html#af59c598e0d5455467c2d685d66a55c02"><param name="Name" value="arccos"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classarcsin.html#acfaaf001b122d82b8fc698323bbed79b"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classarcsin.html#acfaaf001b122d82b8fc698323bbed79b"><param name="Name" value="arcsin"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classclose__bracket__operator.html#a24e7b0ad5913b852ae2fa1fb65b76ea0"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classclose__bracket__operator.html#a24e7b0ad5913b852ae2fa1fb65b76ea0"><param name="Name" value="close_bracket_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcosin.html#ad6d203f0cd9bb53394f243244769fa79"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcosin.html#ad6d203f0cd9bb53394f243244769fa79"><param name="Name" value="cosin"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#acbdeb9e318cb6d4ac4e73b8323892102"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#acbdeb9e318cb6d4ac4e73b8323892102"><param name="Name" value="def_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdivide__operator.html#a2a1fdf8d43ce237ce5b7d01f06368ed4"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdivide__operator.html#a2a1fdf8d43ce237ce5b7d01f06368ed4"><param name="Name" value="divide_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classln.html#ad869740a558066d20e6678085f4616b2"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classln.html#ad869740a558066d20e6678085f4616b2"><param name="Name" value="ln"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classmod.html#ae1d90fb1f5dbe31239cd046979701fd1"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classmod.html#ae1d90fb1f5dbe31239cd046979701fd1"><param name="Name" value="mod"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classmultiply__operator.html#a680a0350258fe8faba8c0e2733c98cce"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classmultiply__operator.html#a680a0350258fe8faba8c0e2733c98cce"><param name="Name" value="multiply_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classopen__bracket__operator.html#ab3528c6fe3ecb876b3ffec1b9e1a0fde"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classopen__bracket__operator.html#ab3528c6fe3ecb876b3ffec1b9e1a0fde"><param name="Name" value="open_bracket_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpower.html#add2e3463f0e0a6303648c6349823f3fa"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpower.html#add2e3463f0e0a6303648c6349823f3fa"><param name="Name" value="power"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsinus.html#a3f193abcd6b8d56872ed1e52e61f0468"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classsinus.html#a3f193abcd6b8d56872ed1e52e61f0468"><param name="Name" value="sinus"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsubstruct__operator.html#a5e5b5c99cf5289544ee39aeffcd036a8"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classsubstruct__operator.html#a5e5b5c99cf5289544ee39aeffcd036a8"><param name="Name" value="substruct_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classunar__minus__operator.html#aa476163c42461fe6dafdc6778aee0052"><param name="Name" value="executeOperation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classunar__minus__operator.html#aa476163c42461fe6dafdc6778aee0052"><param name="Name" value="unar_minus_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalc__error.html#ae4ba4e2f523fcd399a2eeabb9e53264d"><param name="Name" value="getInstance"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a561850652b14aea929f18c1ed8729598"><param name="Name" value="isOperUnar"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a627a1c31a7036ff9f850e3e6edf2ee51"><param name="Name" value="isUnar"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classln.html"><param name="Name" value="ln"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classln.html"><param name="Name" value="ln"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classln.html#ad869740a558066d20e6678085f4616b2"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classln.html"><param name="Name" value="ln"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classln.html#a13ffc31f6e58b08dbd99890d0e27f2ee"><param name="Name" value="ln"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classmod.html"><param name="Name" value="mod"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classmod.html"><param name="Name" value="mod"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classmod.html#ae1d90fb1f5dbe31239cd046979701fd1"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classmod.html"><param name="Name" value="mod"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classmod.html#aeb4184f9a65a3627b5b9dab9be1976c8"><param name="Name" value="mod"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classmultiply__operator.html"><param name="Name" value="multiply_operator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classmultiply__operator.html"><param name="Name" value="multiply_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classmultiply__operator.html#a680a0350258fe8faba8c0e2733c98cce"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classmultiply__operator.html"><param name="Name" value="multiply_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classmultiply__operator.html#a21d41c3526a1deb0939d90ff769c5ded"><param name="Name" value="multiply_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structcontain__t.html#a88e08b02fa42f24314953d628e57101d"><param name="Name" value="numValue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classopen__bracket__operator.html"><param name="Name" value="open_bracket_operator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classopen__bracket__operator.html"><param name="Name" value="open_bracket_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classopen__bracket__operator.html#ab3528c6fe3ecb876b3ffec1b9e1a0fde"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classopen__bracket__operator.html"><param name="Name" value="open_bracket_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classopen__bracket__operator.html#a3c03557a4bfe397899da3d4dba68a8ea"><param name="Name" value="open_bracket_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structcontain__t.html#a72a5b8ba16fa28ec9c20945cccaf3e23"><param name="Name" value="operValue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#aebbb4b24c339023ca855921057b0a14d"><param name="Name" value="operatorId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a38a2538b6bbeb94d4a2d9367d0f18321"><param name="Name" value="operatorName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structoperator_value__t.html"><param name="Name" value="operatorValue_t"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structoperator_value__t.html"><param name="Name" value="operatorValue_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structoperator_value__t.html#a6a93a9a51b88e39ef0e55f5f7eb4ac42"><param name="Name" value="tokenId"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structoperator_value__t.html"><param name="Name" value="operatorValue_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structoperator_value__t.html#aa09554ac98a79c2e0cef22c48a5d60e4"><param name="Name" value="tokenName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classparser.html#ae921271fe8f4badae6d6e0d72a223fe0"><param name="Name" value="parseQueue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classparser.html"><param name="Name" value="parser"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classparser.html"><param name="Name" value="parser"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classparser.html#af6dda7fa77a2123b840997af78a5f70d"><param name="Name" value="GetTokensPolIS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classparser.html"><param name="Name" value="parser"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classparser.html#ae921271fe8f4badae6d6e0d72a223fe0"><param name="Name" value="parseQueue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classparser.html"><param name="Name" value="parser"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classparser.html#ac4cb16e924a735dfb5837772afa1a1a9"><param name="Name" value="parser"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpower.html"><param name="Name" value="power"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpower.html"><param name="Name" value="power"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpower.html#add2e3463f0e0a6303648c6349823f3fa"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpower.html"><param name="Name" value="power"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpower.html#a7d95c2e8e725f6a6b5541c6b7a904de0"><param name="Name" value="power"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdef__operator.html#a366d2bf1d35a27b27eab58e4784dfbdf"><param name="Name" value="priority"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classscanner.html#a6d2056a82e7f00864bd9a903a640e6a9"><param name="Name" value="scanString"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classscanner.html"><param name="Name" value="scanner"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classscanner.html"><param name="Name" value="scanner"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classscanner.html#a21d162bfecc3029f8cca2c590925d08b"><param name="Name" value="GetTokenQueue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classscanner.html"><param name="Name" value="scanner"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classscanner.html#a6d2056a82e7f00864bd9a903a640e6a9"><param name="Name" value="scanString"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classscanner.html"><param name="Name" value="scanner"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classscanner.html#a4b421fd7028a97e53eb1d94aa54b757b"><param name="Name" value="scanner"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsinus.html"><param name="Name" value="sinus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsinus.html"><param name="Name" value="sinus"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classsinus.html#a3f193abcd6b8d56872ed1e52e61f0468"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsinus.html"><param name="Name" value="sinus"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classsinus.html#a3af655bea12bec41737f046d455bc1f6"><param name="Name" value="sinus"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsubstruct__operator.html"><param name="Name" value="substruct_operator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsubstruct__operator.html"><param name="Name" value="substruct_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classsubstruct__operator.html#a5e5b5c99cf5289544ee39aeffcd036a8"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsubstruct__operator.html"><param name="Name" value="substruct_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classsubstruct__operator.html#a3ee48e8019e0a459d01da3009630161b"><param name="Name" value="substruct_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structoperator_value__t.html#a6a93a9a51b88e39ef0e55f5f7eb4ac42"><param name="Name" value="tokenId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structoperator_value__t.html#aa09554ac98a79c2e0cef22c48a5d60e4"><param name="Name" value="tokenName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structtoken__t.html#a4ac1a151cc5bf252772a81548893ae28"><param name="Name" value="tokenType"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structtoken__t.html"><param name="Name" value="token_t"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structtoken__t.html"><param name="Name" value="token_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structtoken__t.html#a4ac1a151cc5bf252772a81548893ae28"><param name="Name" value="tokenType"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structtoken__t.html"><param name="Name" value="token_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structtoken__t.html#a89226d2bbb76942b32c30f6a93de0a64"><param name="Name" value="value"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classunar__minus__operator.html"><param name="Name" value="unar_minus_operator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classunar__minus__operator.html"><param name="Name" value="unar_minus_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classunar__minus__operator.html#aa476163c42461fe6dafdc6778aee0052"><param name="Name" value="executeOperation"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classunar__minus__operator.html"><param name="Name" value="unar_minus_operator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classunar__minus__operator.html#a09a7e189d558b67549f598419b6de766"><param name="Name" value="unar_minus_operator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structtoken__t.html#a89226d2bbb76942b32c30f6a93de0a64"><param name="Name" value="value"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcalculator.html#a6129b309f699d91c1f7a17810298c010"><param name="Name" value="~calculator"></OBJECT>
+</UL>
+</BODY>
+</HTML>

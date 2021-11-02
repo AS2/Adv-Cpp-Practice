@@ -1,0 +1,68 @@
+\hypertarget{classparser}{}\doxysection{parser Class Reference}
+\label{classparser}\index{parser@{parser}}
+
+
+Parser class.  
+
+
+
+
+{\ttfamily \#include $<$parser.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classparser_ac4cb16e924a735dfb5837772afa1a1a9}{parser}} ()
+\item 
+void \mbox{\hyperlink{classparser_ae921271fe8f4badae6d6e0d72a223fe0}{parse\+Queue}} (const std\+::map$<$ char, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classdef__operator}{def\+\_\+operator}} $>$ $>$ \&operators, std\+::queue$<$ \mbox{\hyperlink{structtoken__t}{token\+\_\+t}} $>$ \&tokens\+To\+Parse)
+\item 
+std\+::queue$<$ \mbox{\hyperlink{structtoken__t}{token\+\_\+t}} $>$ \& \mbox{\hyperlink{classparser_af6dda7fa77a2123b840997af78a5f70d}{Get\+Tokens\+Pol\+IS}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Parser class. 
+
+Parser class, which parse token queue in Infix order into token queue in Reverse Polish Notation 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classparser_ac4cb16e924a735dfb5837772afa1a1a9}\label{classparser_ac4cb16e924a735dfb5837772afa1a1a9}} 
+\index{parser@{parser}!parser@{parser}}
+\index{parser@{parser}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{parser()}{parser()}}
+{\footnotesize\ttfamily parser\+::parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Default parser constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classparser_af6dda7fa77a2123b840997af78a5f70d}\label{classparser_af6dda7fa77a2123b840997af78a5f70d}} 
+\index{parser@{parser}!GetTokensPolIS@{GetTokensPolIS}}
+\index{GetTokensPolIS@{GetTokensPolIS}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{GetTokensPolIS()}{GetTokensPolIS()}}
+{\footnotesize\ttfamily std\+::queue$<$ \mbox{\hyperlink{structtoken__t}{token\+\_\+t}} $>$ \& parser\+::\+Get\+Tokens\+Pol\+IS (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse tokens queue function \begin{DoxyReturn}{Returns}
+\textquotesingle{}std\+::queue$<$token\+\_\+t$>$\textquotesingle{} tokens queue in RPN 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classparser_ae921271fe8f4badae6d6e0d72a223fe0}\label{classparser_ae921271fe8f4badae6d6e0d72a223fe0}} 
+\index{parser@{parser}!parseQueue@{parseQueue}}
+\index{parseQueue@{parseQueue}!parser@{parser}}
+\doxysubsubsection{\texorpdfstring{parseQueue()}{parseQueue()}}
+{\footnotesize\ttfamily void parser\+::parse\+Queue (\begin{DoxyParamCaption}\item[{const std\+::map$<$ char, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classdef__operator}{def\+\_\+operator}} $>$ $>$ \&}]{operators,  }\item[{std\+::queue$<$ \mbox{\hyperlink{structtoken__t}{token\+\_\+t}} $>$ \&}]{tokens\+To\+Parse }\end{DoxyParamCaption})}
+
+Parse tokens queue function 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em operators} & -\/ supportive operators map \\
+\hline
+\mbox{\texttt{ in}}  & {\em tokens\+To\+Parse} & -\/ tokens queue to parse \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+Fill error in \textquotesingle{}\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}}\textquotesingle{} class if tokens have bad order 
+\end{DoxyWarning}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+parser/parser.\+h\item 
+parser/parser.\+cpp\end{DoxyCompactItemize}

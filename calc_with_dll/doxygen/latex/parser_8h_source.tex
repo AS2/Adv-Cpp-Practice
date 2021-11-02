@@ -1,0 +1,32 @@
+\hypertarget{parser_8h_source}{}\doxysection{parser.\+h}
+\label{parser_8h_source}\index{parser/parser.h@{parser/parser.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <queue>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <memory>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <stack>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}../operators/operator.h"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}../token/token.h"{}}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{16 \textcolor{keyword}{class }\mbox{\hyperlink{classparser}{parser}} \{}
+\DoxyCodeLine{17 \textcolor{keyword}{private}:}
+\DoxyCodeLine{18   std::stack<token\_t> stack1, stack2;  }
+\DoxyCodeLine{19   std::queue<token\_t> tokenPolIS;      }
+\DoxyCodeLine{20 }
+\DoxyCodeLine{27   \textcolor{keywordtype}{int} CheckAssoc(std::shared\_ptr<def\_operator> \textcolor{keyword}{const}\& op1, std::shared\_ptr<def\_operator> \textcolor{keyword}{const}\& op2);}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{34   \textcolor{keywordtype}{void} DropOpers(\textcolor{keyword}{const} std::map<\textcolor{keywordtype}{char}, std::shared\_ptr<def\_operator>>\& operators, std::shared\_ptr<def\_operator> \textcolor{keyword}{const}\& op);}
+\DoxyCodeLine{35 \textcolor{keyword}{public}:}
+\DoxyCodeLine{39   \mbox{\hyperlink{classparser_ac4cb16e924a735dfb5837772afa1a1a9}{parser}}() \{\};}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{47   \textcolor{keywordtype}{void} \mbox{\hyperlink{classparser_ae921271fe8f4badae6d6e0d72a223fe0}{parseQueue}}(\textcolor{keyword}{const} std::map<\textcolor{keywordtype}{char}, std::shared\_ptr<def\_operator>>\& operators, std::queue<token\_t>\& tokensToParse);}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{53   std::queue<token\_t>\& \mbox{\hyperlink{classparser_af6dda7fa77a2123b840997af78a5f70d}{GetTokensPolIS}}() \{ \textcolor{keywordflow}{return} tokenPolIS; \};}
+\DoxyCodeLine{54 \};}
+
+\end{DoxyCode}

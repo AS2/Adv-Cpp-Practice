@@ -1,0 +1,95 @@
+# ninja log v5
+1	806	6575812369764752	calc_with_dll/CMakeFiles/calc_with_dll.dir/parser/parser.cpp.obj	f79975ee5a8c8b21
+12	786	6575812369944278	calc_with_dll/CMakeFiles/calc_with_dll.dir/scanner/scanner.cpp.obj	222350cd94cb7bdb
+14	785	6575812369944278	calc_with_dll/CMakeFiles/calc_with_dll.dir/eval/eval.cpp.obj	4b3409ff33b898fb
+8	1540	6575812377623740	calc_with_dll/CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	8a70f021897890a
+2004	2296	6575812384573494	calc_with_dll/calc_with_dll.exe	12ffecb611f9f347
+311	539	6575810435159855	../../../calc_with_dll/DLLs Code/build/plugins/arccos.dll	e75ac9043ca1c2a8
+276	532	6575810292727586	../../../calc_with_dll/DLLs Code/build/plugins/power.dll	2f2c9e624a8a16ca
+1	316	6575810488852390	calc_with_dll/DLLs Code/cosin/CMakeFiles/cosin.dir/cosin.cpp.obj	100ccd8025b0ec9e
+6	2004	6575812382256427	calc_with_dll/CMakeFiles/calc_with_dll.dir/calculator/calculator.cpp.obj	47ee9b63a2678ba9
+8	1106	6575519035387308	calc_with_dll/CMakeFiles/calc_with_dll.dir/dllLoader/dllLoader.cpp.obj	1dda7a4858a30e4b
+14	793	6575154713177564	calc_with_dll/CMakeFiles/calc_with_dll.dir/DLLs_Code/cosin/cosin.cpp.obj	4b5c81fb69ba7523
+2315	3177	6575626082588598	calc_with_dll/DLLs Code/cosin/cosin.dll	adf0d37e3f445abc
+1	495	6575816278057503	build.ninja	130b86f9dec2a273
+295	578	6575810077731585	calc_with_dll/DLLs Code/arcsin/arcsin.lib	eb89f43fee63ef1b
+317	570	6575810488852390	../../../calc_with_dll/DLLs Code/build/plugins/cosin.dll	1a08cf12247c3b7f
+289	585	6575810379874800	calc_with_dll/DLLs Code/mod/mod.lib	c2d74e7d48ce903f
+1	313	6575810548614446	calc_with_dll/DLLs Code/ln/CMakeFiles/ln.dir/ln.cpp.obj	9bff6d5f3703eeec
+289	585	6575810379874800	../../../calc_with_dll/DLLs Code/build/plugins/mod.dll	c2d74e7d48ce903f
+1	276	6575810292727586	calc_with_dll/DLLs Code/power/CMakeFiles/power.dir/power.cpp.obj	dc54ff512881806d
+1	287	6575810162109495	calc_with_dll/DLLs Code/sinus/CMakeFiles/sinus.dir/sinus.cpp.obj	b69acbde3481967
+317	570	6575810488852390	calc_with_dll/DLLs Code/cosin/cosin.lib	1a08cf12247c3b7f
+1459	3060	6575608596304302	calc_with_dll/DLLs Code/sinus/sinus.dll	3b72daa00feeacb5
+288	621	6575810162109495	calc_with_dll/DLLs Code/sinus/sinus.lib	165502eb561c08c4
+276	532	6575810292727586	calc_with_dll/DLLs Code/power/power.lib	2f2c9e624a8a16ca
+313	566	6575810548614446	../../../calc_with_dll/DLLs Code/build/plugins/ln.dll	ebf059de3f2ca6e4
+313	566	6575810548614446	calc_with_dll/DLLs Code/ln/ln.lib	ebf059de3f2ca6e4
+288	621	6575810162109495	../../../calc_with_dll/DLLs Code/build/plugins/sinus.dll	165502eb561c08c4
+1	310	6575810435159855	calc_with_dll/DLLs Code/arccos/CMakeFiles/arccos.dir/arccos.cpp.obj	96d3b9581aaa8a62
+311	539	6575810435159855	calc_with_dll/DLLs Code/arccos/arccos.lib	e75ac9043ca1c2a8
+0	295	6575810077731585	calc_with_dll/DLLs Code/arcsin/CMakeFiles/arcsin.dir/arcsin.cpp.obj	53a4ef402c081e06
+295	578	6575810077731585	../../../calc_with_dll/DLLs Code/build/plugins/arcsin.dll	eb89f43fee63ef1b
+1	288	6575810379874800	calc_with_dll/DLLs Code/mod/CMakeFiles/mod.dir/mod.cpp.obj	6321c1e63f119b40
+1	277	6575816398199177	calc_with_dll/DLLs Code/ln/CMakeFiles/ln.dir/ln.cpp.obj	9bff6d5f3703eeec
+277	556	6575816398199177	../../../calc_with_dll/DLLs Code/build/plugins/ln.dll	ebf059de3f2ca6e4
+277	556	6575816398199177	calc_with_dll/DLLs Code/ln/ln.lib	ebf059de3f2ca6e4
+1	272	6575816482912848	calc_with_dll/DLLs Code/cosin/CMakeFiles/cosin.dir/cosin.cpp.obj	100ccd8025b0ec9e
+273	537	6575816482912848	../../../calc_with_dll/DLLs Code/build/plugins/cosin.dll	1a08cf12247c3b7f
+273	537	6575816482912848	calc_with_dll/DLLs Code/cosin/cosin.lib	1a08cf12247c3b7f
+1	276	6575816549824307	calc_with_dll/DLLs Code/arccos/CMakeFiles/arccos.dir/arccos.cpp.obj	96d3b9581aaa8a62
+277	585	6575816549824307	../../../calc_with_dll/DLLs Code/build/plugins/arccos.dll	e75ac9043ca1c2a8
+277	585	6575816549824307	calc_with_dll/DLLs Code/arccos/arccos.lib	e75ac9043ca1c2a8
+1	275	6575816613697491	calc_with_dll/DLLs Code/mod/CMakeFiles/mod.dir/mod.cpp.obj	6321c1e63f119b40
+276	672	6575816613697491	../../../calc_with_dll/DLLs Code/build/plugins/mod.dll	c2d74e7d48ce903f
+276	672	6575816613697491	calc_with_dll/DLLs Code/mod/mod.lib	c2d74e7d48ce903f
+1	277	6575816656537147	calc_with_dll/DLLs Code/arcsin/CMakeFiles/arcsin.dir/arcsin.cpp.obj	53a4ef402c081e06
+277	544	6575816656537147	../../../calc_with_dll/DLLs Code/build/plugins/arcsin.dll	eb89f43fee63ef1b
+277	544	6575816656537147	calc_with_dll/DLLs Code/arcsin/arcsin.lib	eb89f43fee63ef1b
+0	273	6575816693535423	calc_with_dll/DLLs Code/power/CMakeFiles/power.dir/power.cpp.obj	dc54ff512881806d
+274	528	6575816693535423	../../../calc_with_dll/DLLs Code/build/plugins/power.dll	2f2c9e624a8a16ca
+274	528	6575816693535423	calc_with_dll/DLLs Code/power/power.lib	2f2c9e624a8a16ca
+0	278	6575816797991339	calc_with_dll/DLLs Code/sinus/CMakeFiles/sinus.dir/sinus.cpp.obj	b69acbde3481967
+279	538	6575816797991339	../../../calc_with_dll/DLLs Code/build/plugins/sinus.dll	165502eb561c08c4
+279	538	6575816797991339	calc_with_dll/DLLs Code/sinus/sinus.lib	165502eb561c08c4
+7	607	6575817063692816	calc_with_dll/CMakeFiles/calc_with_dll.dir/scanner/scanner.cpp.obj	222350cd94cb7bdb
+9	611	6575817063433510	calc_with_dll/CMakeFiles/calc_with_dll.dir/parser/parser.cpp.obj	f79975ee5a8c8b21
+11	657	6575817064206546	calc_with_dll/CMakeFiles/calc_with_dll.dir/eval/eval.cpp.obj	4b3409ff33b898fb
+4	1152	6575817069170129	calc_with_dll/CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	8a70f021897890a
+1	1457	6575817072202047	calc_with_dll/CMakeFiles/calc_with_dll.dir/calculator/calculator.cpp.obj	47ee9b63a2678ba9
+1457	1782	6575817074874018	calc_with_dll/calc_with_dll.exe	12ffecb611f9f347
+0	284	6575818776676155	calc_with_dll/DLLs Code/sinus/CMakeFiles/sinus.dir/sinus.cpp.obj	b69acbde3481967
+285	725	6575818780114006	../../../calc_with_dll/DLLs Code/build/plugins/sinus.dll	165502eb561c08c4
+285	725	6575818780114006	calc_with_dll/DLLs Code/sinus/sinus.lib	165502eb561c08c4
+1	264	6575818830684398	calc_with_dll/DLLs Code/power/CMakeFiles/power.dir/power.cpp.obj	dc54ff512881806d
+265	646	6575818833606579	../../../calc_with_dll/DLLs Code/build/plugins/power.dll	2f2c9e624a8a16ca
+265	646	6575818833606579	calc_with_dll/DLLs Code/power/power.lib	2f2c9e624a8a16ca
+0	258	6575818891680265	calc_with_dll/DLLs Code/arcsin/CMakeFiles/arcsin.dir/arcsin.cpp.obj	53a4ef402c081e06
+259	772	6575818895974936	../../../calc_with_dll/DLLs Code/build/plugins/arcsin.dll	eb89f43fee63ef1b
+259	772	6575818895974936	calc_with_dll/DLLs Code/arcsin/arcsin.lib	eb89f43fee63ef1b
+0	255	6575818961569741	calc_with_dll/DLLs Code/mod/CMakeFiles/mod.dir/mod.cpp.obj	6321c1e63f119b40
+255	655	6575818964619905	../../../calc_with_dll/DLLs Code/build/plugins/mod.dll	c2d74e7d48ce903f
+255	655	6575818964619905	calc_with_dll/DLLs Code/mod/mod.lib	c2d74e7d48ce903f
+1	257	6575819013099019	calc_with_dll/DLLs Code/arccos/CMakeFiles/arccos.dir/arccos.cpp.obj	96d3b9581aaa8a62
+257	760	6575819016593220	../../../calc_with_dll/DLLs Code/build/plugins/arccos.dll	e75ac9043ca1c2a8
+257	760	6575819016593220	calc_with_dll/DLLs Code/arccos/arccos.lib	e75ac9043ca1c2a8
+1	253	6575819062778908	calc_with_dll/DLLs Code/cosin/CMakeFiles/cosin.dir/cosin.cpp.obj	100ccd8025b0ec9e
+253	724	6575819066054677	../../../calc_with_dll/DLLs Code/build/plugins/cosin.dll	1a08cf12247c3b7f
+253	724	6575819066054677	calc_with_dll/DLLs Code/cosin/cosin.lib	1a08cf12247c3b7f
+1	343	6575819125426596	calc_with_dll/DLLs Code/ln/CMakeFiles/ln.dir/ln.cpp.obj	9bff6d5f3703eeec
+343	768	6575819128768334	../../../calc_with_dll/DLLs Code/build/plugins/ln.dll	ebf059de3f2ca6e4
+343	768	6575819128768334	calc_with_dll/DLLs Code/ln/ln.lib	ebf059de3f2ca6e4
+4	444	6575819221983629	calc_with_dll/CMakeFiles/calc_with_dll.dir/parser/parser.cpp.obj	f79975ee5a8c8b21
+13	505	6575819222671783	calc_with_dll/CMakeFiles/calc_with_dll.dir/eval/eval.cpp.obj	4b3409ff33b898fb
+1	555	6575819223200375	calc_with_dll/CMakeFiles/calc_with_dll.dir/scanner/scanner.cpp.obj	222350cd94cb7bdb
+7	1123	6575819228878305	calc_with_dll/CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	8a70f021897890a
+11	817	6575819661791047	calc_with_dll/CMakeFiles/calc_with_dll.dir/eval/eval.cpp.obj	4b3409ff33b898fb
+8	817	6575819661781064	calc_with_dll/CMakeFiles/calc_with_dll.dir/parser/parser.cpp.obj	f79975ee5a8c8b21
+6	819	6575819661930669	calc_with_dll/CMakeFiles/calc_with_dll.dir/scanner/scanner.cpp.obj	222350cd94cb7bdb
+1	1365	6575819667575573	calc_with_dll/CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	8a70f021897890a
+5	584	6575821752375972	calc_with_dll/CMakeFiles/calc_with_dll.dir/scanner/scanner.cpp.obj	222350cd94cb7bdb
+11	593	6575821752705089	calc_with_dll/CMakeFiles/calc_with_dll.dir/eval/eval.cpp.obj	4b3409ff33b898fb
+7	682	6575821753594601	calc_with_dll/CMakeFiles/calc_with_dll.dir/parser/parser.cpp.obj	f79975ee5a8c8b21
+1	1269	6575821759544103	calc_with_dll/CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	8a70f021897890a
+9	1561	6575821762455498	calc_with_dll/CMakeFiles/calc_with_dll.dir/calculator/calculator.cpp.obj	47ee9b63a2678ba9
+1561	1789	6575821764182262	calc_with_dll/calc_with_dll.exe	12ffecb611f9f347

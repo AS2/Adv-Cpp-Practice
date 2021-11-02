@@ -1,0 +1,60 @@
+\hypertarget{classeval}{}\doxysection{eval Class Reference}
+\label{classeval}\index{eval@{eval}}
+
+
+Evaluate class.  
+
+
+
+
+{\ttfamily \#include $<$eval.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classeval_a038c2f74230a376cc58789ebcb83a6b1}{eval}} ()
+\item 
+double \mbox{\hyperlink{classeval_a22f358cfc6b6a2bfa72f4d94921de3ec}{evalvate}} (const std\+::map$<$ char, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classdef__operator}{def\+\_\+operator}} $>$ $>$ \&operators, std\+::queue$<$ \mbox{\hyperlink{structtoken__t}{token\+\_\+t}} $>$ \&tokens\+Pol\+IS)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Evaluate class. 
+
+Evaluate expression in tokens queue in RPN 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classeval_a038c2f74230a376cc58789ebcb83a6b1}\label{classeval_a038c2f74230a376cc58789ebcb83a6b1}} 
+\index{eval@{eval}!eval@{eval}}
+\index{eval@{eval}!eval@{eval}}
+\doxysubsubsection{\texorpdfstring{eval()}{eval()}}
+{\footnotesize\ttfamily eval\+::eval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Default \textquotesingle{}eval\textquotesingle{} constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classeval_a22f358cfc6b6a2bfa72f4d94921de3ec}\label{classeval_a22f358cfc6b6a2bfa72f4d94921de3ec}} 
+\index{eval@{eval}!evalvate@{evalvate}}
+\index{evalvate@{evalvate}!eval@{eval}}
+\doxysubsubsection{\texorpdfstring{evalvate()}{evalvate()}}
+{\footnotesize\ttfamily double eval\+::evalvate (\begin{DoxyParamCaption}\item[{const std\+::map$<$ char, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classdef__operator}{def\+\_\+operator}} $>$ $>$ \&}]{operators,  }\item[{std\+::queue$<$ \mbox{\hyperlink{structtoken__t}{token\+\_\+t}} $>$ \&}]{tokens\+Pol\+IS }\end{DoxyParamCaption})}
+
+Default \textquotesingle{}eval\textquotesingle{} constructor 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em operators} & -\/ operators map \\
+\hline
+\mbox{\texttt{ in}}  & {\em tokens\+Pol\+IS} & -\/ tokens queue in RPN \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+Fill error in \textquotesingle{}\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}}\textquotesingle{} struct if some operators cant execute by some reasons 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+result of value 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+eval/eval.\+h\item 
+eval/eval.\+cpp\end{DoxyCompactItemize}

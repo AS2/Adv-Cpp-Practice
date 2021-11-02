@@ -1,0 +1,105 @@
+\hypertarget{classcalc__error}{}\doxysection{calc\+\_\+error Class Reference}
+\label{classcalc__error}\index{calc\_error@{calc\_error}}
+
+
+Calculator error class-\/singleton.  
+
+
+
+
+{\ttfamily \#include $<$error.\+h$>$}
+
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{error\+Type\+\_\+t}} \{ \newline
+{\bfseries NO\+\_\+\+ERR} = 0
+, {\bfseries SCANNER\+\_\+\+ERR}
+, {\bfseries PARSER\+\_\+\+ERR}
+, {\bfseries EVAL\+\_\+\+ERR}
+, \newline
+{\bfseries OPER\+\_\+\+ERR}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcalc__error_aac5567e92ec8451882c51345d395693d}\label{classcalc__error_aac5567e92ec8451882c51345d395693d}} 
+{\bfseries calc\+\_\+error} (const \mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&)=delete
+\item 
+\mbox{\Hypertarget{classcalc__error_a8efff19558cd4be7a6b2d0ca4a4de7aa}\label{classcalc__error_a8efff19558cd4be7a6b2d0ca4a4de7aa}} 
+{\bfseries calc\+\_\+error} (\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&\&)=delete
+\item 
+void \mbox{\hyperlink{classcalc__error_a8721ed165e66174a0653d70f783e68c3}{Update\+Error}} (\mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{error\+Type\+\_\+t}} \+\_\+error\+Type, const std\+::string \&\+\_\+error\+Message)
+\item 
+void \mbox{\hyperlink{classcalc__error_a4b073f1e0b64fd63c61732146c896c4b}{Update\+Error}} (\mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{error\+Type\+\_\+t}} \+\_\+error\+Type, std\+::string \&\&\+\_\+error\+Message)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \& \mbox{\hyperlink{classcalc__error_ae4ba4e2f523fcd399a2eeabb9e53264d}{get\+Instance}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcalc__error_a7a270edb4f28cc26e14f49a7b459441c}\label{classcalc__error_a7a270edb4f28cc26e14f49a7b459441c}} 
+\mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{error\+Type\+\_\+t}} {\bfseries error\+Type}
+\begin{DoxyCompactList}\small\item\em current error type \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcalc__error_a660d4934f74e047479b26821b1395975}\label{classcalc__error_a660d4934f74e047479b26821b1395975}} 
+std\+::string {\bfseries error\+Message}
+\begin{DoxyCompactList}\small\item\em current error message \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Calculator error class-\/singleton. 
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classcalc__error_aad652ff091e353b1707753d2a177483a}\label{classcalc__error_aad652ff091e353b1707753d2a177483a}} 
+\index{calc\_error@{calc\_error}!errorType\_t@{errorType\_t}}
+\index{errorType\_t@{errorType\_t}!calc\_error@{calc\_error}}
+\doxysubsubsection{\texorpdfstring{errorType\_t}{errorType\_t}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{calc\+\_\+error\+::error\+Type\+\_\+t}}}
+
+\textquotesingle{}error\+Type\+\_\+t\textquotesingle{} error types 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcalc__error_ae4ba4e2f523fcd399a2eeabb9e53264d}\label{classcalc__error_ae4ba4e2f523fcd399a2eeabb9e53264d}} 
+\index{calc\_error@{calc\_error}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!calc\_error@{calc\_error}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \& calc\+\_\+error\+::get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns only existed \textquotesingle{}\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}}\textquotesingle{} instance \begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} reference 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcalc__error_a8721ed165e66174a0653d70f783e68c3}\label{classcalc__error_a8721ed165e66174a0653d70f783e68c3}} 
+\index{calc\_error@{calc\_error}!UpdateError@{UpdateError}}
+\index{UpdateError@{UpdateError}!calc\_error@{calc\_error}}
+\doxysubsubsection{\texorpdfstring{UpdateError()}{UpdateError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void calc\+\_\+error\+::\+Update\+Error (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{error\+Type\+\_\+t}}}]{\+\_\+error\+Type,  }\item[{const std\+::string \&}]{\+\_\+error\+Message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Update error status (copy semantic) 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em \+\_\+error\+Type} & -\/ new error type \\
+\hline
+\mbox{\texttt{ in}}  & {\em \+\_\+error\+Message} & -\/ new error message \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcalc__error_a4b073f1e0b64fd63c61732146c896c4b}\label{classcalc__error_a4b073f1e0b64fd63c61732146c896c4b}} 
+\index{calc\_error@{calc\_error}!UpdateError@{UpdateError}}
+\index{UpdateError@{UpdateError}!calc\_error@{calc\_error}}
+\doxysubsubsection{\texorpdfstring{UpdateError()}{UpdateError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void calc\+\_\+error\+::\+Update\+Error (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcalc__error_aad652ff091e353b1707753d2a177483a}{error\+Type\+\_\+t}}}]{\+\_\+error\+Type,  }\item[{std\+::string \&\&}]{\+\_\+error\+Message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Update error status (move semantic) 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em \+\_\+error\+Type} & -\/ new error type \\
+\hline
+\mbox{\texttt{ in}}  & {\em \+\_\+error\+Message} & -\/ new error message \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+error/error.\+h\end{DoxyCompactItemize}

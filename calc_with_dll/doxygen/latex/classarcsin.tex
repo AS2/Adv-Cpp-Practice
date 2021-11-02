@@ -1,0 +1,70 @@
+\hypertarget{classarcsin}{}\doxysection{arcsin Class Reference}
+\label{classarcsin}\index{arcsin@{arcsin}}
+
+
+Arcsin operator class.  
+
+
+
+
+{\ttfamily \#include $<$arcsin.\+h$>$}
+
+Inheritance diagram for arcsin\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classarcsin}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classarcsin_a3d58b7f9e738ef3ecbd07627663c86ce}{arcsin}} ()
+\item 
+virtual double \mbox{\hyperlink{classarcsin_acfaaf001b122d82b8fc698323bbed79b}{execute\+Operation}} (double l\+Value, double r\+Value, \mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&err)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Arcsin operator class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classarcsin_a3d58b7f9e738ef3ecbd07627663c86ce}\label{classarcsin_a3d58b7f9e738ef3ecbd07627663c86ce}} 
+\index{arcsin@{arcsin}!arcsin@{arcsin}}
+\index{arcsin@{arcsin}!arcsin@{arcsin}}
+\doxysubsubsection{\texorpdfstring{arcsin()}{arcsin()}}
+{\footnotesize\ttfamily arcsin\+::arcsin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Default \textquotesingle{}arcsin\textquotesingle{} operator constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classarcsin_acfaaf001b122d82b8fc698323bbed79b}\label{classarcsin_acfaaf001b122d82b8fc698323bbed79b}} 
+\index{arcsin@{arcsin}!executeOperation@{executeOperation}}
+\index{executeOperation@{executeOperation}!arcsin@{arcsin}}
+\doxysubsubsection{\texorpdfstring{executeOperation()}{executeOperation()}}
+{\footnotesize\ttfamily virtual double arcsin\+::execute\+Operation (\begin{DoxyParamCaption}\item[{double}]{l\+Value,  }\item[{double}]{r\+Value,  }\item[{\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&}]{err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Virtual execute function of \textquotesingle{}arcsin\textquotesingle{} operator 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em l\+Value} & -\/ value for unary operator \\
+\hline
+\mbox{\texttt{ in}}  & {\em r\+Value} & -\/ right value for binary operator (none) \\
+\hline
+\mbox{\texttt{ in}}  & {\em err} & -\/ error struct to fill if operator takes bad values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+Fill error in \textquotesingle{}\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}}\textquotesingle{} struct if value not between -\/1 and 1 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+result of operator execute 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classdef__operator_acbdeb9e318cb6d4ac4e73b8323892102}{def\+\_\+operator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+DLLs Code/arcsin/arcsin.\+h\end{DoxyCompactItemize}

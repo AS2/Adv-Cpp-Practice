@@ -1,0 +1,44 @@
+\hypertarget{calculator_8h_source}{}\doxysection{calculator.\+h}
+\label{calculator_8h_source}\index{calculator/calculator.h@{calculator/calculator.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <windows.h>}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <list>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <queue>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <stack>}}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}../operators/standart\_operators.h"{}}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}../scanner/scanner.h"{}}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}../parser/parser.h"{}}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include "{}../eval/eval.h"{}}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include "{}../error/error.h"{}}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include "{}../token/token.h"{}}}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{22 \textcolor{keyword}{class }\mbox{\hyperlink{classcalculator}{calculator}} \{}
+\DoxyCodeLine{23 \textcolor{keyword}{private}:}
+\DoxyCodeLine{24   std::map<char, std::shared\_ptr<def\_operator>> operatorsMap;  }
+\DoxyCodeLine{25   }
+\DoxyCodeLine{26   std::list<HMODULE> dlls;                                     }
+\DoxyCodeLine{27 }
+\DoxyCodeLine{31   \textcolor{keywordtype}{void} FillStandartOperatorsMap(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{37   \textcolor{keywordtype}{void} FillOperatorsFromOneDll(\textcolor{keyword}{const} std::string\& dllPath);}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{43   \textcolor{keywordtype}{void} FillOperatorsFromDLLs(\textcolor{keyword}{const} std::string\& dllsPath);}
+\DoxyCodeLine{44 \textcolor{keyword}{public}:}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{49   \mbox{\hyperlink{classcalculator_a6a253f7667f1dcdabebc0851facd38c4}{calculator}}();}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{55   \mbox{\hyperlink{classcalculator_a6a253f7667f1dcdabebc0851facd38c4}{calculator}}(\textcolor{keyword}{const} std::string\& dllPath);}
+\DoxyCodeLine{56   }
+\DoxyCodeLine{62   \textcolor{keywordtype}{double} \mbox{\hyperlink{classcalculator_a899037cea90542c98f023a2e131372dc}{executeExpression}}(\textcolor{keyword}{const} std::string\& expression);}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{67   \mbox{\hyperlink{classcalculator_a6129b309f699d91c1f7a17810298c010}{\string~calculator}}();}
+\DoxyCodeLine{68 \};}
+
+\end{DoxyCode}

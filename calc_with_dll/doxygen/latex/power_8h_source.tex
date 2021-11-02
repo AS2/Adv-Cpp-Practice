@@ -1,0 +1,27 @@
+\hypertarget{power_8h_source}{}\doxysection{power.\+h}
+\label{power_8h_source}\index{DLLs Code/power/power.h@{DLLs Code/power/power.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}../../operators/operator.h"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}../../dllLoader/dllPlugin.h"{}}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{8 \textcolor{keyword}{class }\mbox{\hyperlink{classpower}{power}} : \textcolor{keyword}{public} \mbox{\hyperlink{classdef__operator}{def\_operator}} \{}
+\DoxyCodeLine{9 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13   \mbox{\hyperlink{classpower_a7d95c2e8e725f6a6b5541c6b7a904de0}{power}}() \{}
+\DoxyCodeLine{14     \mbox{\hyperlink{classdef__operator_a627a1c31a7036ff9f850e3e6edf2ee51}{isUnar}} = \textcolor{keyword}{false};}
+\DoxyCodeLine{15     \mbox{\hyperlink{classdef__operator_a366d2bf1d35a27b27eab58e4784dfbdf}{priority}} = 8;}
+\DoxyCodeLine{16     \mbox{\hyperlink{classdef__operator_aebbb4b24c339023ca855921057b0a14d}{operatorId}} = \textcolor{charliteral}{'\string^'};}
+\DoxyCodeLine{17     \mbox{\hyperlink{classdef__operator_a38a2538b6bbeb94d4a2d9367d0f18321}{operatorName}} = \textcolor{stringliteral}{"{}\string^"{}};}
+\DoxyCodeLine{18   \};}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{27   \textcolor{keyword}{virtual} \textcolor{keywordtype}{double} \mbox{\hyperlink{classpower_add2e3463f0e0a6303648c6349823f3fa}{executeOperation}}(\textcolor{keywordtype}{double} lValue, \textcolor{keywordtype}{double} rValue, \mbox{\hyperlink{classcalc__error}{calc\_error}}\& err) \{}
+\DoxyCodeLine{28     \textcolor{keywordflow}{if} (lValue == 0 \&\& rValue == 0) \{}
+\DoxyCodeLine{29       err.\mbox{\hyperlink{classcalc__error_a8721ed165e66174a0653d70f783e68c3}{UpdateError}}(calc\_error::OPER\_ERR, \textcolor{stringliteral}{"{}'power' -\/ lValue and rValue can't be zero in one time"{}});}
+\DoxyCodeLine{30       \textcolor{keywordflow}{return} 1;}
+\DoxyCodeLine{31     \}}
+\DoxyCodeLine{32     \textcolor{keywordflow}{return} pow(lValue, rValue);}
+\DoxyCodeLine{33   \}}
+\DoxyCodeLine{34 \};}
+
+\end{DoxyCode}

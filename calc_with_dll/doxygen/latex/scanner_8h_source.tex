@@ -1,0 +1,34 @@
+\hypertarget{scanner_8h_source}{}\doxysection{scanner.\+h}
+\label{scanner_8h_source}\index{scanner/scanner.h@{scanner/scanner.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <memory>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <queue>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <set>}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}../error/error.h"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}../operators/operator.h"{}}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}../token/token.h"{}}}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{classscanner}{scanner}} \{}
+\DoxyCodeLine{18 \textcolor{keyword}{private}:}
+\DoxyCodeLine{19     std::set<std::pair<std::string, char>> opersNamesAndIDs;        }
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     std::queue<token\_t> tokenQueue;                                                         }
+\DoxyCodeLine{22     }
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} FillOpersNames(\textcolor{keyword}{const} std::map<\textcolor{keywordtype}{char}, std::shared\_ptr<def\_operator>>\& operators);}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{35     \mbox{\hyperlink{structtoken__t}{token\_t}} ReadFunc(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* strBegin);}
+\DoxyCodeLine{36 \textcolor{keyword}{public}:}
+\DoxyCodeLine{40     \mbox{\hyperlink{classscanner_a4b421fd7028a97e53eb1d94aa54b757b}{scanner}}() \{\};}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{48     \textcolor{keywordtype}{void} \mbox{\hyperlink{classscanner_a6d2056a82e7f00864bd9a903a640e6a9}{scanString}}(\textcolor{keyword}{const} std::map<\textcolor{keywordtype}{char}, std::shared\_ptr<def\_operator>>\& operators, \textcolor{keyword}{const} std::string\& strToParse);}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{54     std::queue<token\_t>\& \mbox{\hyperlink{classscanner_a21d162bfecc3029f8cca2c590925d08b}{GetTokenQueue}}() \{ \textcolor{keywordflow}{return} tokenQueue; \};}
+\DoxyCodeLine{55 \};}
+
+\end{DoxyCode}

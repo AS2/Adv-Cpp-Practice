@@ -1,0 +1,128 @@
+\hypertarget{classdef__operator}{}\doxysection{def\+\_\+operator Class Reference}
+\label{classdef__operator}\index{def\_operator@{def\_operator}}
+
+
+Default operator parent class.  
+
+
+
+
+{\ttfamily \#include $<$operator.\+h$>$}
+
+Inheritance diagram for def\+\_\+operator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{classdef__operator}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+char \mbox{\hyperlink{classdef__operator_a630a108506f5e4e2ac020984adefe845}{Get\+Id}} () const
+\item 
+const std\+::string \& \mbox{\hyperlink{classdef__operator_ae2f6d2a3735c9e53bb8013ebe3fd6bc8}{Get\+Name}} () const
+\item 
+double \mbox{\hyperlink{classdef__operator_a5afea149aac9834c519dd9363b9bd3cb}{Get\+Priority}} () const
+\item 
+bool \mbox{\hyperlink{classdef__operator_a561850652b14aea929f18c1ed8729598}{is\+Oper\+Unar}} () const
+\item 
+virtual double \mbox{\hyperlink{classdef__operator_acbdeb9e318cb6d4ac4e73b8323892102}{execute\+Operation}} (double l\+Value, double r\+Value, \mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&err)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classdef__operator_adc8402b6d269571fbf961370e0251a75}{def\+\_\+operator}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdef__operator_a366d2bf1d35a27b27eab58e4784dfbdf}\label{classdef__operator_a366d2bf1d35a27b27eab58e4784dfbdf}} 
+double {\bfseries priority}
+\begin{DoxyCompactList}\small\item\em operator priority \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdef__operator_aebbb4b24c339023ca855921057b0a14d}\label{classdef__operator_aebbb4b24c339023ca855921057b0a14d}} 
+char {\bfseries operator\+Id}
+\begin{DoxyCompactList}\small\item\em operator id (!must be individual for each operator) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdef__operator_a627a1c31a7036ff9f850e3e6edf2ee51}\label{classdef__operator_a627a1c31a7036ff9f850e3e6edf2ee51}} 
+bool {\bfseries is\+Unar}
+\begin{DoxyCompactList}\small\item\em is operator unary or binary \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdef__operator_a38a2538b6bbeb94d4a2d9367d0f18321}\label{classdef__operator_a38a2538b6bbeb94d4a2d9367d0f18321}} 
+std\+::string {\bfseries operator\+Name}
+\begin{DoxyCompactList}\small\item\em operator name (how its write in expressions) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Default operator parent class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classdef__operator_adc8402b6d269571fbf961370e0251a75}\label{classdef__operator_adc8402b6d269571fbf961370e0251a75}} 
+\index{def\_operator@{def\_operator}!def\_operator@{def\_operator}}
+\index{def\_operator@{def\_operator}!def\_operator@{def\_operator}}
+\doxysubsubsection{\texorpdfstring{def\_operator()}{def\_operator()}}
+{\footnotesize\ttfamily def\+\_\+operator\+::def\+\_\+operator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Default \textquotesingle{}\mbox{\hyperlink{classdef__operator}{def\+\_\+operator}}\textquotesingle{} constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classdef__operator_acbdeb9e318cb6d4ac4e73b8323892102}\label{classdef__operator_acbdeb9e318cb6d4ac4e73b8323892102}} 
+\index{def\_operator@{def\_operator}!executeOperation@{executeOperation}}
+\index{executeOperation@{executeOperation}!def\_operator@{def\_operator}}
+\doxysubsubsection{\texorpdfstring{executeOperation()}{executeOperation()}}
+{\footnotesize\ttfamily virtual double def\+\_\+operator\+::execute\+Operation (\begin{DoxyParamCaption}\item[{double}]{l\+Value,  }\item[{double}]{r\+Value,  }\item[{\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&}]{err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Virtual function of execute operator 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em l\+Value} & -\/ left value for binary operator (or value for unary) \\
+\hline
+\mbox{\texttt{ in}}  & {\em r\+Value} & -\/ right value for binary operator \\
+\hline
+\mbox{\texttt{ in}}  & {\em err} & -\/ error struct to fill if operator takes bad values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+result of operator execute 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classarccos_af59c598e0d5455467c2d685d66a55c02}{arccos}}, \mbox{\hyperlink{classarcsin_acfaaf001b122d82b8fc698323bbed79b}{arcsin}}, \mbox{\hyperlink{classcosin_ad6d203f0cd9bb53394f243244769fa79}{cosin}}, \mbox{\hyperlink{classln_ad869740a558066d20e6678085f4616b2}{ln}}, \mbox{\hyperlink{classmod_ae1d90fb1f5dbe31239cd046979701fd1}{mod}}, \mbox{\hyperlink{classpower_add2e3463f0e0a6303648c6349823f3fa}{power}}, \mbox{\hyperlink{classsinus_a3f193abcd6b8d56872ed1e52e61f0468}{sinus}}, \mbox{\hyperlink{classadd__operator_a0f65b92b5c4c08f9138181d25433565a}{add\+\_\+operator}}, \mbox{\hyperlink{classsubstruct__operator_a5e5b5c99cf5289544ee39aeffcd036a8}{substruct\+\_\+operator}}, \mbox{\hyperlink{classmultiply__operator_a680a0350258fe8faba8c0e2733c98cce}{multiply\+\_\+operator}}, \mbox{\hyperlink{classdivide__operator_a2a1fdf8d43ce237ce5b7d01f06368ed4}{divide\+\_\+operator}}, \mbox{\hyperlink{classunar__minus__operator_aa476163c42461fe6dafdc6778aee0052}{unar\+\_\+minus\+\_\+operator}}, \mbox{\hyperlink{classopen__bracket__operator_ab3528c6fe3ecb876b3ffec1b9e1a0fde}{open\+\_\+bracket\+\_\+operator}}, and \mbox{\hyperlink{classclose__bracket__operator_a24e7b0ad5913b852ae2fa1fb65b76ea0}{close\+\_\+bracket\+\_\+operator}}.
+
+\mbox{\Hypertarget{classdef__operator_a630a108506f5e4e2ac020984adefe845}\label{classdef__operator_a630a108506f5e4e2ac020984adefe845}} 
+\index{def\_operator@{def\_operator}!GetId@{GetId}}
+\index{GetId@{GetId}!def\_operator@{def\_operator}}
+\doxysubsubsection{\texorpdfstring{GetId()}{GetId()}}
+{\footnotesize\ttfamily char def\+\_\+operator\+::\+Get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get operator id \begin{DoxyReturn}{Returns}
+operator id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdef__operator_ae2f6d2a3735c9e53bb8013ebe3fd6bc8}\label{classdef__operator_ae2f6d2a3735c9e53bb8013ebe3fd6bc8}} 
+\index{def\_operator@{def\_operator}!GetName@{GetName}}
+\index{GetName@{GetName}!def\_operator@{def\_operator}}
+\doxysubsubsection{\texorpdfstring{GetName()}{GetName()}}
+{\footnotesize\ttfamily const std\+::string \& def\+\_\+operator\+::\+Get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get operator name \begin{DoxyReturn}{Returns}
+operator name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdef__operator_a5afea149aac9834c519dd9363b9bd3cb}\label{classdef__operator_a5afea149aac9834c519dd9363b9bd3cb}} 
+\index{def\_operator@{def\_operator}!GetPriority@{GetPriority}}
+\index{GetPriority@{GetPriority}!def\_operator@{def\_operator}}
+\doxysubsubsection{\texorpdfstring{GetPriority()}{GetPriority()}}
+{\footnotesize\ttfamily double def\+\_\+operator\+::\+Get\+Priority (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get operator priority \begin{DoxyReturn}{Returns}
+operator priority 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdef__operator_a561850652b14aea929f18c1ed8729598}\label{classdef__operator_a561850652b14aea929f18c1ed8729598}} 
+\index{def\_operator@{def\_operator}!isOperUnar@{isOperUnar}}
+\index{isOperUnar@{isOperUnar}!def\_operator@{def\_operator}}
+\doxysubsubsection{\texorpdfstring{isOperUnar()}{isOperUnar()}}
+{\footnotesize\ttfamily bool def\+\_\+operator\+::is\+Oper\+Unar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Is operator unary or binary \begin{DoxyReturn}{Returns}
+true -\/ if unary, false -\/ if binary 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+operators/operator.\+h\end{DoxyCompactItemize}

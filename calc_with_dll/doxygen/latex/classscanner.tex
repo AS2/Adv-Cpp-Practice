@@ -1,0 +1,68 @@
+\hypertarget{classscanner}{}\doxysection{scanner Class Reference}
+\label{classscanner}\index{scanner@{scanner}}
+
+
+Scanner class.  
+
+
+
+
+{\ttfamily \#include $<$scanner.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classscanner_a4b421fd7028a97e53eb1d94aa54b757b}{scanner}} ()
+\item 
+void \mbox{\hyperlink{classscanner_a6d2056a82e7f00864bd9a903a640e6a9}{scan\+String}} (const std\+::map$<$ char, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classdef__operator}{def\+\_\+operator}} $>$ $>$ \&operators, const std\+::string \&str\+To\+Parse)
+\item 
+std\+::queue$<$ \mbox{\hyperlink{structtoken__t}{token\+\_\+t}} $>$ \& \mbox{\hyperlink{classscanner_a21d162bfecc3029f8cca2c590925d08b}{Get\+Token\+Queue}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Scanner class. 
+
+Scanner class, which scan inputed string and parse it to token queue 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classscanner_a4b421fd7028a97e53eb1d94aa54b757b}\label{classscanner_a4b421fd7028a97e53eb1d94aa54b757b}} 
+\index{scanner@{scanner}!scanner@{scanner}}
+\index{scanner@{scanner}!scanner@{scanner}}
+\doxysubsubsection{\texorpdfstring{scanner()}{scanner()}}
+{\footnotesize\ttfamily scanner\+::scanner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+default scanner constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classscanner_a21d162bfecc3029f8cca2c590925d08b}\label{classscanner_a21d162bfecc3029f8cca2c590925d08b}} 
+\index{scanner@{scanner}!GetTokenQueue@{GetTokenQueue}}
+\index{GetTokenQueue@{GetTokenQueue}!scanner@{scanner}}
+\doxysubsubsection{\texorpdfstring{GetTokenQueue()}{GetTokenQueue()}}
+{\footnotesize\ttfamily std\+::queue$<$ \mbox{\hyperlink{structtoken__t}{token\+\_\+t}} $>$ \& scanner\+::\+Get\+Token\+Queue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get scaned token queue function \begin{DoxyReturn}{Returns}
+std\+::queue$<$token\+\_\+t$>$ token queue reference 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classscanner_a6d2056a82e7f00864bd9a903a640e6a9}\label{classscanner_a6d2056a82e7f00864bd9a903a640e6a9}} 
+\index{scanner@{scanner}!scanString@{scanString}}
+\index{scanString@{scanString}!scanner@{scanner}}
+\doxysubsubsection{\texorpdfstring{scanString()}{scanString()}}
+{\footnotesize\ttfamily void scanner\+::scan\+String (\begin{DoxyParamCaption}\item[{const std\+::map$<$ char, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classdef__operator}{def\+\_\+operator}} $>$ $>$ \&}]{operators,  }\item[{const std\+::string \&}]{str\+To\+Parse }\end{DoxyParamCaption})}
+
+String scanner function 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em operators} & -\/ operators map \\
+\hline
+\mbox{\texttt{ in}}  & {\em str\+To\+Parse} & -\/ string to parse \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+Fill error in \textquotesingle{}\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}}\textquotesingle{} struct if string contains function(operator) which doesnt exist 
+\end{DoxyWarning}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+scanner/scanner.\+h\item 
+scanner/scanner.\+cpp\end{DoxyCompactItemize}

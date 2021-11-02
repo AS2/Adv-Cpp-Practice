@@ -1,0 +1,32 @@
+\hypertarget{operator_8h_source}{}\doxysection{operator.\+h}
+\label{operator_8h_source}\index{operators/operator.h@{operators/operator.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}../error/error.h"{}}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{classdef__operator}{def\_operator}} \{}
+\DoxyCodeLine{10 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{11   \textcolor{keywordtype}{double} \mbox{\hyperlink{classdef__operator_a366d2bf1d35a27b27eab58e4784dfbdf}{priority}};          }
+\DoxyCodeLine{12   \textcolor{keywordtype}{char} \mbox{\hyperlink{classdef__operator_aebbb4b24c339023ca855921057b0a14d}{operatorId}};          }
+\DoxyCodeLine{13   \textcolor{keywordtype}{bool} \mbox{\hyperlink{classdef__operator_a627a1c31a7036ff9f850e3e6edf2ee51}{isUnar}};              }
+\DoxyCodeLine{14   std::string \mbox{\hyperlink{classdef__operator_a38a2538b6bbeb94d4a2d9367d0f18321}{operatorName}}; }
+\DoxyCodeLine{15   }
+\DoxyCodeLine{19   \mbox{\hyperlink{classdef__operator_adc8402b6d269571fbf961370e0251a75}{def\_operator}}() \{\};}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 \textcolor{keyword}{public}:}
+\DoxyCodeLine{26   \textcolor{keywordtype}{char} \mbox{\hyperlink{classdef__operator_a630a108506f5e4e2ac020984adefe845}{GetId}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classdef__operator_aebbb4b24c339023ca855921057b0a14d}{operatorId}}; \};}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{32   \textcolor{keyword}{const} std::string\& \mbox{\hyperlink{classdef__operator_ae2f6d2a3735c9e53bb8013ebe3fd6bc8}{GetName}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classdef__operator_a38a2538b6bbeb94d4a2d9367d0f18321}{operatorName}}; \};}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{38   \textcolor{keywordtype}{double} \mbox{\hyperlink{classdef__operator_a5afea149aac9834c519dd9363b9bd3cb}{GetPriority}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classdef__operator_a366d2bf1d35a27b27eab58e4784dfbdf}{priority}}; \};}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{44   \textcolor{keywordtype}{bool} \mbox{\hyperlink{classdef__operator_a561850652b14aea929f18c1ed8729598}{isOperUnar}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{classdef__operator_a627a1c31a7036ff9f850e3e6edf2ee51}{isUnar}}; \};}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{53   \textcolor{keyword}{virtual} \textcolor{keywordtype}{double} \mbox{\hyperlink{classdef__operator_acbdeb9e318cb6d4ac4e73b8323892102}{executeOperation}}(\textcolor{keywordtype}{double} lValue, \textcolor{keywordtype}{double} rValue, \mbox{\hyperlink{classcalc__error}{calc\_error}}\& err) = 0;}
+\DoxyCodeLine{54 \};}
+\DoxyCodeLine{55 }
+
+\end{DoxyCode}

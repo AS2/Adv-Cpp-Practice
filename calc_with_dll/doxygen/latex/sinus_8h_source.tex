@@ -1,0 +1,23 @@
+\hypertarget{sinus_8h_source}{}\doxysection{sinus.\+h}
+\label{sinus_8h_source}\index{DLLs Code/sinus/sinus.h@{DLLs Code/sinus/sinus.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}../../operators/operator.h"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}../../dllLoader/dllPlugin.h"{}}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{8 \textcolor{keyword}{class }\mbox{\hyperlink{classsinus}{sinus}} : \textcolor{keyword}{public} \mbox{\hyperlink{classdef__operator}{def\_operator}} \{}
+\DoxyCodeLine{9 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13   \mbox{\hyperlink{classsinus_a3af655bea12bec41737f046d455bc1f6}{sinus}}() \{}
+\DoxyCodeLine{14     \mbox{\hyperlink{classdef__operator_a627a1c31a7036ff9f850e3e6edf2ee51}{isUnar}} = \textcolor{keyword}{true};}
+\DoxyCodeLine{15     \mbox{\hyperlink{classdef__operator_a366d2bf1d35a27b27eab58e4784dfbdf}{priority}} = 9;}
+\DoxyCodeLine{16     \mbox{\hyperlink{classdef__operator_aebbb4b24c339023ca855921057b0a14d}{operatorId}} = \textcolor{charliteral}{'s'};}
+\DoxyCodeLine{17     \mbox{\hyperlink{classdef__operator_a38a2538b6bbeb94d4a2d9367d0f18321}{operatorName}} = \textcolor{stringliteral}{"{}sin"{}};}
+\DoxyCodeLine{18   \};}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{27   \textcolor{keyword}{virtual} \textcolor{keywordtype}{double} \mbox{\hyperlink{classsinus_a3f193abcd6b8d56872ed1e52e61f0468}{executeOperation}}(\textcolor{keywordtype}{double} lValue, \textcolor{keywordtype}{double} rValue, \mbox{\hyperlink{classcalc__error}{calc\_error}}\& err) \{}
+\DoxyCodeLine{28     \textcolor{keywordflow}{return} sin(lValue);}
+\DoxyCodeLine{29   \}}
+\DoxyCodeLine{30 \};}
+
+\end{DoxyCode}

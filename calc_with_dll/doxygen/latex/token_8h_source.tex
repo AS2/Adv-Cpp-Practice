@@ -1,0 +1,31 @@
+\hypertarget{token_8h_source}{}\doxysection{token.\+h}
+\label{token_8h_source}\index{token/token.h@{token/token.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 }
+\DoxyCodeLine{8 \textcolor{keyword}{typedef} \textcolor{keyword}{enum} \{}
+\DoxyCodeLine{9   OPER = 0,}
+\DoxyCodeLine{10   NUM}
+\DoxyCodeLine{11 \} tokenType\_t;}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 }
+\DoxyCodeLine{18 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\{}
+\DoxyCodeLine{19   \textcolor{keywordtype}{char} tokenId;}
+\DoxyCodeLine{20   std::string tokenName;}
+\DoxyCodeLine{21 \} \mbox{\hyperlink{structoperator_value__t}{operatorValue\_t}};}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 }
+\DoxyCodeLine{28 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\{}
+\DoxyCodeLine{29   \mbox{\hyperlink{structoperator_value__t}{operatorValue\_t}} operValue;}
+\DoxyCodeLine{30   \textcolor{keywordtype}{double} numValue;}
+\DoxyCodeLine{31 \} \mbox{\hyperlink{structcontain__t}{contain\_t}};}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 }
+\DoxyCodeLine{38 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{structtoken__t}{token\_t}} \{}
+\DoxyCodeLine{39   tokenType\_t tokenType;}
+\DoxyCodeLine{40   \mbox{\hyperlink{structcontain__t}{contain\_t}} value;}
+\DoxyCodeLine{41 \} \mbox{\hyperlink{structtoken__t}{token\_t}};}
+
+\end{DoxyCode}

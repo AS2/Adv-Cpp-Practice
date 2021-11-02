@@ -1,0 +1,70 @@
+\hypertarget{classarccos}{}\doxysection{arccos Class Reference}
+\label{classarccos}\index{arccos@{arccos}}
+
+
+Arccos operator class.  
+
+
+
+
+{\ttfamily \#include $<$arccos.\+h$>$}
+
+Inheritance diagram for arccos\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classarccos}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classarccos_a2d4a6f3d94feb90479c623f2c6bcc440}{arccos}} ()
+\item 
+virtual double \mbox{\hyperlink{classarccos_af59c598e0d5455467c2d685d66a55c02}{execute\+Operation}} (double l\+Value, double r\+Value, \mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&err)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Arccos operator class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classarccos_a2d4a6f3d94feb90479c623f2c6bcc440}\label{classarccos_a2d4a6f3d94feb90479c623f2c6bcc440}} 
+\index{arccos@{arccos}!arccos@{arccos}}
+\index{arccos@{arccos}!arccos@{arccos}}
+\doxysubsubsection{\texorpdfstring{arccos()}{arccos()}}
+{\footnotesize\ttfamily arccos\+::arccos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Default \textquotesingle{}arccos\textquotesingle{} operator constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classarccos_af59c598e0d5455467c2d685d66a55c02}\label{classarccos_af59c598e0d5455467c2d685d66a55c02}} 
+\index{arccos@{arccos}!executeOperation@{executeOperation}}
+\index{executeOperation@{executeOperation}!arccos@{arccos}}
+\doxysubsubsection{\texorpdfstring{executeOperation()}{executeOperation()}}
+{\footnotesize\ttfamily virtual double arccos\+::execute\+Operation (\begin{DoxyParamCaption}\item[{double}]{l\+Value,  }\item[{double}]{r\+Value,  }\item[{\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}} \&}]{err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Virtual execute function of \textquotesingle{}arccos\textquotesingle{} operator 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em l\+Value} & -\/ value for unary operator \\
+\hline
+\mbox{\texttt{ in}}  & {\em r\+Value} & -\/ right value for binary operator (none) \\
+\hline
+\mbox{\texttt{ in}}  & {\em err} & -\/ error struct to fill if operator takes bad values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+Fill error in \textquotesingle{}\mbox{\hyperlink{classcalc__error}{calc\+\_\+error}}\textquotesingle{} struct if value not between -\/1 and 1 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+result of operator execute 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classdef__operator_acbdeb9e318cb6d4ac4e73b8323892102}{def\+\_\+operator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+DLLs Code/arccos/arccos.\+h\end{DoxyCompactItemize}
