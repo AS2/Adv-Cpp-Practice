@@ -57,6 +57,8 @@ void scanner::scanString(const std::map<char, std::shared_ptr<def_operator>>& op
     if (*str >= '0' && *str <= '9') {
       res = strtod(str, &end);
       if (errno != 0 || end == str) {
+        // 0 for future iterations
+        errno = 0;
         calc_error::getInstance().UpdateError(calc_error::SCANNER_ERR, "Bad number");
         return;
       }

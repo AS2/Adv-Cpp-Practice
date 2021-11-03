@@ -1,0 +1,30 @@
+# ninja log v5
+17	1372	6576281023325867	DLLs Code/arcsin/CMakeFiles/arcsin.dir/arcsin.cpp.obj	e19e608061861213
+11	1388	6576281023365767	CMakeFiles/calc_with_dll.dir/eval/eval.cpp.obj	dc93291229b41b02
+14	1391	6576281023365767	CMakeFiles/calc_with_dll.dir/parser/parser.cpp.obj	85c2c13e007c034
+2	1395	6576281023495427	CMakeFiles/calc_with_dll.dir/scanner/scanner.cpp.obj	2d6c57e82b71a09a
+1396	1877	6576281028452449	DLLs Code/cosin/CMakeFiles/cosin.dir/cosin.cpp.obj	6eef13a5ddc5d541
+1388	1879	6576281028462422	DLLs Code/arccos/CMakeFiles/arccos.dir/arccos.cpp.obj	8c58a91c9aa75a38
+1391	1891	6576281028552188	DLLs Code/sinus/CMakeFiles/sinus.dir/sinus.cpp.obj	93a7b7914273c1ef
+1385	4165	6576281047798503	../../../DLLs Code/build/plugins/arcsin.dll	4e1658adbacdef4a
+1385	4165	6576281047798503	DLLs Code/arcsin/arcsin.lib	4e1658adbacdef4a
+4166	4559	6576281055304442	DLLs Code/ln/CMakeFiles/ln.dir/ln.cpp.obj	bc23a1cb43f5f9bd
+1880	9865	6576281104968025	../../../DLLs Code/build/plugins/arccos.dll	5e0c1b1b3f0c6f1b
+1880	9865	6576281104968025	DLLs Code/arccos/arccos.lib	5e0c1b1b3f0c6f1b
+9865	11025	6576281119955262	DLLs Code/mod/CMakeFiles/mod.dir/mod.cpp.obj	9f3a8759adfe5fec
+1892	11037	6576281115656754	../../../DLLs Code/build/plugins/sinus.dll	e977147cce73c6e7
+1892	11037	6576281115656754	DLLs Code/sinus/sinus.lib	e977147cce73c6e7
+1877	11251	6576281116983213	../../../DLLs Code/build/plugins/cosin.dll	876e79e89679ba98
+1877	11251	6576281116983213	DLLs Code/cosin/cosin.lib	876e79e89679ba98
+11026	11530	6576281125021700	DLLs Code/power/CMakeFiles/power.dir/power.cpp.obj	7e582b3e9378a7d4
+6	12949	6576281139196619	CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	827852efeb0510b0
+9	13177	6576281141470099	CMakeFiles/calc_with_dll.dir/calculator/calculator.cpp.obj	551271ff3a28bbdb
+4559	14623	6576281148909972	../../../DLLs Code/build/plugins/ln.dll	7925b8132602f95d
+4559	14623	6576281148909972	DLLs Code/ln/ln.lib	7925b8132602f95d
+13177	16573	6576281166178713	calc_with_dll.exe	eb5d5ca3dc18e434
+11038	17411	6576281176612345	../../../DLLs Code/build/plugins/mod.dll	dd65c88055d7c631
+11038	17411	6576281176612345	DLLs Code/mod/mod.lib	dd65c88055d7c631
+11530	18259	6576281189457546	../../../DLLs Code/build/plugins/power.dll	5f562b703683be11
+11530	18259	6576281189457546	DLLs Code/power/power.lib	5f562b703683be11
+3	540	6576282511528039	CMakeFiles/calc_with_dll.dir/scanner/scanner.cpp.obj	2d6c57e82b71a09a
+541	1528	6576282516810653	calc_with_dll.exe	eb5d5ca3dc18e434

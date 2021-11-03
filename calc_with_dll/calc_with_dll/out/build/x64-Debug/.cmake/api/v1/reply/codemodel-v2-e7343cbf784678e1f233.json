@@ -1,0 +1,325 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "DLLs Code",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DLLs Code"
+				},
+				{
+					"build" : "DLLs Code/arcsin",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "DLLs Code/arcsin",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "DLLs Code/arccos",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "DLLs Code/arccos",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "DLLs Code/sinus",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "DLLs Code/sinus",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "DLLs Code/cosin",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "DLLs Code/cosin",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "DLLs Code/ln",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "DLLs Code/ln",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "DLLs Code/power",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "DLLs Code/power",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "DLLs Code/mod",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "DLLs Code/mod",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "arcsin",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "arccos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "sinus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "cosin",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ln",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "power",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "mod",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "arccos::@981b1946953f9c638236",
+					"jsonFile" : "target-arccos-Debug-8053a6e4432f93c5f1e6.json",
+					"name" : "arccos",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "arcsin::@603bb67ab1670dbbb103",
+					"jsonFile" : "target-arcsin-Debug-1a136dec539dd429af6b.json",
+					"name" : "arcsin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calc_with_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calc_with_dll-Debug-5254a84aad3a4444501d.json",
+					"name" : "calc_with_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "cosin::@37f78b3eb819886fcd75",
+					"jsonFile" : "target-cosin-Debug-99e6f94f9e230f1bbdeb.json",
+					"name" : "cosin",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ln::@7fe4534bcfaea6eabf87",
+					"jsonFile" : "target-ln-Debug-3bfd7b135e657cd8e263.json",
+					"name" : "ln",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "mod::@b3d2a4e3a1d5636c1ef3",
+					"jsonFile" : "target-mod-Debug-03d46c2946c431160090.json",
+					"name" : "mod",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "power::@0ca959f00c838a48cf20",
+					"jsonFile" : "target-power-Debug-e9cf9d1cea3cff60e073.json",
+					"name" : "power",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sinus::@3b080d21ed52e90de034",
+					"jsonFile" : "target-sinus-Debug-877ec247e83af2595dad.json",
+					"name" : "sinus",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Alex/Documents/GitHub/Adv-Cpp-Practice/calc_with_dll/calc_with_dll/out/build/x64-Debug",
+		"source" : "C:/Users/Alex/Documents/GitHub/Adv-Cpp-Practice/calc_with_dll/calc_with_dll"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
