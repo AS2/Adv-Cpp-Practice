@@ -28,3 +28,6 @@
 11530	18259	6576281189457546	DLLs Code/power/power.lib	5f562b703683be11
 3	540	6576282511528039	CMakeFiles/calc_with_dll.dir/scanner/scanner.cpp.obj	2d6c57e82b71a09a
 541	1528	6576282516810653	calc_with_dll.exe	eb5d5ca3dc18e434
+3	1177	6578172757973804	CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	827852efeb0510b0
+6	1589	6578172762092562	CMakeFiles/calc_with_dll.dir/calculator/calculator.cpp.obj	551271ff3a28bbdb
+1589	2692	6578172771194332	calc_with_dll.exe	eb5d5ca3dc18e434

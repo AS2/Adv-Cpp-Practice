@@ -106,6 +106,10 @@ public:
   * @return result of operator execute
   */
   virtual double executeOperation(double lValue, double rValue, calc_error& err) {
+    if (rValue == 0) {
+      err.UpdateError(calc_error::EVAL_ERR, "'/' error^ cannot divide on zero!");
+      return -1;
+    }
     return lValue / rValue;
   }
 };
