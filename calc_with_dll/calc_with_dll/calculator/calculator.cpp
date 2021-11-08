@@ -9,26 +9,26 @@ using DEFOPER = def_operator*(__cdecl*)(void);
   * Fill operators' map with standart operators
   */
 void calculator::FillStandartOperatorsMap(void) {
-  std::shared_ptr<def_operator> oper = std::make_shared<add_operator>();
-  operatorsMap.emplace(std::make_pair(oper->GetId(), oper));
+  std::unique_ptr<def_operator> oper = std::make_unique<add_operator>();
+  operatorsMap.emplace(std::make_pair(oper->GetId(), std::move(oper)));
 
-  oper = std::make_shared<substruct_operator>();
-  operatorsMap.emplace(std::make_pair(oper->GetId(), oper));
+  oper = std::make_unique<substruct_operator>();
+  operatorsMap.emplace(std::make_pair(oper->GetId(), std::move(oper)));
 
-  oper = std::make_shared<multiply_operator>();
-  operatorsMap.emplace(std::make_pair(oper->GetId(), oper));
+  oper = std::make_unique<multiply_operator>();
+  operatorsMap.emplace(std::make_pair(oper->GetId(), std::move(oper)));
 
-  oper = std::make_shared<divide_operator>();
-  operatorsMap.emplace(std::make_pair(oper->GetId(), oper));
+  oper = std::make_unique<divide_operator>();
+  operatorsMap.emplace(std::make_pair(oper->GetId(), std::move(oper)));
 
-  oper = std::make_shared<unar_minus_operator>();
-  operatorsMap.emplace(std::make_pair(oper->GetId(), oper));
+  oper = std::make_unique<unar_minus_operator>();
+  operatorsMap.emplace(std::make_pair(oper->GetId(), std::move(oper)));
 
-  oper = std::make_shared<open_bracket_operator>();
-  operatorsMap.emplace(std::make_pair(oper->GetId(), oper));
+  oper = std::make_unique<open_bracket_operator>();
+  operatorsMap.emplace(std::make_pair(oper->GetId(), std::move(oper)));
 
-  oper = std::make_shared<close_bracket_operator>();
-  operatorsMap.emplace(std::make_pair(oper->GetId(), oper));
+  oper = std::make_unique<close_bracket_operator>();
+  operatorsMap.emplace(std::make_pair(oper->GetId(), std::move(oper)));
 }
 
 /**
@@ -50,8 +50,8 @@ void calculator::FillOperatorsFromOneDll(const std::string& dllPath) {
   }
   dlls.push_back(dll);
 
-  std::shared_ptr<def_operator> newOperator(DefineOperatorFunc());
-  operatorsMap.emplace(std::make_pair(newOperator->GetId(), newOperator));
+  std::unique_ptr<def_operator> newOperator(DefineOperatorFunc());
+  operatorsMap.emplace(std::make_pair(newOperator->GetId(), std::move(newOperator)));
   std::cout << dllPath << ": dll loaded" << std::endl;
 }
 

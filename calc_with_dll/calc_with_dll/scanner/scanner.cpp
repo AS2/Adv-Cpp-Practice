@@ -4,7 +4,7 @@
   * Generate and fill operators names and ID's set
   *	@param[in] operators - operators map
   */
-void scanner::FillOpersNames(const std::map<char, std::shared_ptr<def_operator>>& operators) {
+void scanner::FillOpersNames(const std::map<char, std::unique_ptr<def_operator>>& operators) {
   for (auto& el : operators)
     if (el.second->GetId() != '!')
       opersNamesAndIDs.emplace(std::pair<std::string, char>(el.second->GetName(), el.second->GetId()));
@@ -45,7 +45,7 @@ token_t scanner::ReadFunc(const char* strBegin) {
   *	@param[in] strToParse - string to parse
   * @warning Fill error in 'calc_error' struct if string contains function(operator) which doesnt exist
   */
-void scanner::scanString(const std::map<char, std::shared_ptr<def_operator>>& operators, const std::string& strToParse) {
+void scanner::scanString(const std::map<char, std::unique_ptr<def_operator>>& operators, const std::string& strToParse) {
   FillOpersNames(operators);
   token_t newToken;
   int i = 0;

@@ -2,6 +2,9 @@
 #include "../../operators/operator.h"
 #include "../../dllLoader/dllPlugin.h"
 
+/**
+* @brief 'mod' operator class
+*/
 class mod : public def_operator {
 public:
   /**
@@ -9,6 +12,7 @@ public:
   */
   mod() {
     isUnar = false;
+    isRightAssoc = false;
     priority = 5.5;
     operatorId = '%';
     operatorName = "%";

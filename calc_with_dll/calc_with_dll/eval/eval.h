@@ -12,5 +12,5 @@ private:
 public:
   eval() {};
 
-  double evalvate(const std::map<char, std::shared_ptr<def_operator>>& operators, std::queue<token_t>& tokensPolIS);
+  double evalvate(const std::map<char, std::unique_ptr<def_operator>>& operators, std::queue<token_t>& tokensPolIS);
 };

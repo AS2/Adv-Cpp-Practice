@@ -2,6 +2,9 @@
 #include "../../operators/operator.h"
 #include "../../dllLoader/dllPlugin.h"
 
+/**
+* @brief 'power' operator class
+*/
 class power : public def_operator {
 public:
   /**
@@ -9,6 +12,7 @@ public:
   */
   power() {
     isUnar = false;
+    isRightAssoc = true;
     priority = 8;
     operatorId = '^';
     operatorName = "^";

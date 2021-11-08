@@ -2,6 +2,9 @@
 #include "../../operators/operator.h"
 #include "../../dllLoader/dllPlugin.h"
 
+/**
+* @brief 'arccos' operator class
+*/
 class arccos : public def_operator {
 public:
   /**
@@ -9,6 +12,7 @@ public:
   */
   arccos() {
     isUnar = true;
+    isRightAssoc = false;
     priority = 9;
     operatorId = 'b';
     operatorName = "arccos";

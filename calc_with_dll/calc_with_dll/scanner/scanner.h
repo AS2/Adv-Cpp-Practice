@@ -20,7 +20,7 @@ private:
 
 	std::queue<token_t> tokenQueue;															///< parsed token queue
 	
-	void FillOpersNames(const std::map<char, std::shared_ptr<def_operator>>& operators);
+	void FillOpersNames(const std::map<char, std::unique_ptr<def_operator>>& operators);
 	token_t ReadFunc(const char* strBegin);
 public:
 	/**
@@ -34,7 +34,7 @@ public:
 		*	@param[in] operators - operators map
 		*	@param[in] strToParse - string to parse
 		*/
-	void scanString(const std::map<char, std::shared_ptr<def_operator>>& operators, const std::string& strToParse);
+	void scanString(const std::map<char, std::unique_ptr<def_operator>>& operators, const std::string& strToParse);
 
 	/**
 		* String scanner function

@@ -9,10 +9,10 @@
 * @warning Fill error in 'calc_error' struct if some operators cant execute by some reasons
 * @return result of value
 */
-double eval::evalvate(const std::map<char, std::shared_ptr<def_operator>>& operators, std::queue<token_t>& tokensPolIS) {
+double eval::evalvate(const std::map<char, std::unique_ptr<def_operator>>& operators, std::queue<token_t>& tokensPolIS) {
   std::stack<token_t> tokens;
   token_t token, tokenNum1, tokenNum2;
-  std::shared_ptr<def_operator> tmp_op;
+  def_operator* tmp_op;
 
   while (!tokensPolIS.empty()) {
     token = tokensPolIS.front();
@@ -21,7 +21,7 @@ double eval::evalvate(const std::map<char, std::shared_ptr<def_operator>>& opera
     if (token.tokenType == NUM)
       tokens.push(token);
     else {
-      tmp_op = operators.at(token.value.operValue.tokenId);
+      tmp_op = operators.at(token.value.operValue.tokenId).get();
 
       if (!tmp_op->isOperUnar()) {
         tokenNum2 = tokens.top();

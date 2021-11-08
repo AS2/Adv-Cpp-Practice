@@ -12,6 +12,7 @@ public:
   */
   ln() {
     isUnar = true;
+    isRightAssoc = false;
     priority = 9;
     operatorId = 'l';
     operatorName = "ln";

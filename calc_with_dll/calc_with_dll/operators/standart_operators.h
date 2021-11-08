@@ -12,6 +12,7 @@ public:
   */
   add_operator() {
     isUnar = false;
+    isRightAssoc = false;
     priority = 5;
     operatorId = '+';
     operatorName = "+";
@@ -39,6 +40,7 @@ public:
   */
   substruct_operator() {
     isUnar = false;
+    isRightAssoc = false;
     priority = 5;
     operatorId = '-';
     operatorName = "-";
@@ -66,6 +68,7 @@ public:
   */
   multiply_operator() {
     isUnar = false;
+    isRightAssoc = false;
     priority = 6;
     operatorId = '*';
     operatorName = "*";
@@ -93,6 +96,7 @@ public:
   */
   divide_operator() {
     isUnar = false;
+    isRightAssoc = false;
     priority = 6;
     operatorId = '/';
     operatorName = "/";
@@ -124,6 +128,7 @@ public:
   */
   unar_minus_operator() {
     isUnar = true;
+    isRightAssoc = false;
     priority = 7;
     operatorId = '!';
     operatorName = "-";
@@ -151,6 +156,7 @@ public:
   */
   open_bracket_operator() {
     isUnar = false;
+    isRightAssoc = false;
     priority = 0;
     operatorId = '(';
     operatorName = "(";
@@ -180,6 +186,7 @@ public:
   */
   close_bracket_operator() {
     isUnar = false;
+    isRightAssoc = false;
     priority = 1;
     operatorId = ')';
     operatorName = ")";

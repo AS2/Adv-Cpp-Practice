@@ -21,7 +21,7 @@
 */
 class calculator {
 private:
-  std::map<char, std::shared_ptr<def_operator>> operatorsMap;  ///< map of all supportive operators
+  std::map<char, std::unique_ptr<def_operator>> operatorsMap;  ///< map of all supportive operators
   
   std::list<HMODULE> dlls;                                     ///< list with all opened dlls
 
