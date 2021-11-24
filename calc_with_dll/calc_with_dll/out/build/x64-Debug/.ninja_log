@@ -70,3 +70,9 @@
 1	1215	6581089519440007	CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	827852efeb0510b0
 4	1550	6581089522790563	CMakeFiles/calc_with_dll.dir/calculator/calculator.cpp.obj	551271ff3a28bbdb
 1551	2047	6581089525952106	calc_with_dll.exe	eb5d5ca3dc18e434
+3	911	6581843279254504	CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	827852efeb0510b0
+6	1229	6581843282436001	CMakeFiles/calc_with_dll.dir/calculator/calculator.cpp.obj	551271ff3a28bbdb
+1	849	6581843555105287	CMakeFiles/calc_with_dll.dir/calc_with_dll.cpp.obj	827852efeb0510b0
+5	1174	6581843558336646	CMakeFiles/calc_with_dll.dir/calculator/calculator.cpp.obj	551271ff3a28bbdb
+3	560	6581844708037858	CMakeFiles/calc_with_dll.dir/parser/parser.cpp.obj	85c2c13e007c034
+561	1118	6581844712047132	calc_with_dll.exe	eb5d5ca3dc18e434

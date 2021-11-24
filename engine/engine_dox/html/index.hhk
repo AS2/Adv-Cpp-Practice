@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html"><param name="Name" value="Command"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html"><param name="Name" value="Command"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html#ac3717e409ad40cc49776e4b2f5d8d3db"><param name="Name" value="Command"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html"><param name="Name" value="Command"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html#aa7ead7f65a05db388eb30533cc81d660"><param name="Name" value="Command"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html"><param name="Name" value="Command"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html#a331c771c04feb35deb40c215a79bf917"><param name="Name" value="executeCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_command_arguments.html"><param name="Name" value="CommandArguments"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_command_arguments.html"><param name="Name" value="CommandArguments"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_command_arguments.html#a3cde3508aaec11fc9f27dbe074013e36"><param name="Name" value="commandArgsName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_command_arguments.html"><param name="Name" value="CommandArguments"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_command_arguments.html#a87e806ab8342a55ca3d6624ed729b582"><param name="Name" value="commandArgsValues"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_engine.html"><param name="Name" value="Engine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_engine.html"><param name="Name" value="Engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_engine.html#a0f1ab57c0eb9d4f36903daaba92160f4"><param name="Name" value="execute"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_engine.html"><param name="Name" value="Engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_engine.html#a05161008c3cebf337a8ca15ac691a3a1"><param name="Name" value="register_command"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfirst_norm.html#a67c00a61520f45671290a27ecf9024b2"><param name="Name" value="FirstNorm"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classinf_norm.html#ad5571c81bc50559550779154f0777aaf"><param name="Name" value="InfNorm"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html#abce34b656d1b28629129ef354dbc49f4"><param name="Name" value="PrintSmth"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html#a6e3f67a342eb713c3ba7b04568a59ffd"><param name="Name" value="SquareLength2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html#a5adf7b4d1a0db8bea05fdeb580db6229"><param name="Name" value="SquareLength3"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html"><param name="Name" value="Wrapper"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html"><param name="Name" value="Wrapper"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html#ab1c9e52c822ef29a5da79d1835b33af1"><param name="Name" value="Wrapper"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html"><param name="Name" value="Wrapper"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html#ab2ae7b93201ef49ba950d651baac8236"><param name="Name" value="Wrapper"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html"><param name="Name" value="Wrapper"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html#a4eeb528f58750fcf462b8750f7ed2bb5"><param name="Name" value="correctArguments"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html"><param name="Name" value="Wrapper"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html#a960806f58513f1562c7031585d4cbea3"><param name="Name" value="executeCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_command_arguments.html#a3cde3508aaec11fc9f27dbe074013e36"><param name="Name" value="commandArgsName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_command_arguments.html#a87e806ab8342a55ca3d6624ed729b582"><param name="Name" value="commandArgsValues"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html#a4eeb528f58750fcf462b8750f7ed2bb5"><param name="Name" value="correctArguments"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_engine.html#a0f1ab57c0eb9d4f36903daaba92160f4"><param name="Name" value="execute"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html#a331c771c04feb35deb40c215a79bf917"><param name="Name" value="executeCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_command.html#a331c771c04feb35deb40c215a79bf917"><param name="Name" value="Command"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html#a960806f58513f1562c7031585d4cbea3"><param name="Name" value="executeCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_wrapper.html#a960806f58513f1562c7031585d4cbea3"><param name="Name" value="Wrapper"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfirst_norm.html"><param name="Name" value="firstNorm"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfirst_norm.html"><param name="Name" value="firstNorm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfirst_norm.html#a67c00a61520f45671290a27ecf9024b2"><param name="Name" value="FirstNorm"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classinf_norm.html"><param name="Name" value="infNorm"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classinf_norm.html"><param name="Name" value="infNorm"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classinf_norm.html#ad5571c81bc50559550779154f0777aaf"><param name="Name" value="InfNorm"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_engine.html#a05161008c3cebf337a8ca15ac691a3a1"><param name="Name" value="register_command"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html"><param name="Name" value="somethingFromVector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html"><param name="Name" value="somethingFromVector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html#abce34b656d1b28629129ef354dbc49f4"><param name="Name" value="PrintSmth"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html"><param name="Name" value="somethingFromVector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html#a6e3f67a342eb713c3ba7b04568a59ffd"><param name="Name" value="SquareLength2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html"><param name="Name" value="somethingFromVector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classsomething_from_vector.html#a5adf7b4d1a0db8bea05fdeb580db6229"><param name="Name" value="SquareLength3"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>
